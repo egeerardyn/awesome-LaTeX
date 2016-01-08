@@ -7,28 +7,24 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 - [Awesome LaTeX](#awesome-latex)
   - [Contents](#contents)
   - [Legend](#legend)
-
 - [Distributions](#distributions)
 - [Engines](#engines)
   - [LaTeX formulas on the web](#latex-formulas-on-the-web)
-
 - [Tools](#tools)
 - [LaTeX-compatible tools](#latex-compatible-tools)
 - [Editors](#editors)
   - [LaTeX-focussed](#latex-focussed)
   - [General purpose text editors](#general-purpose-text-editors)
   - [Online editors](#online-editors)
-
 - [Bibliography tools](#bibliography-tools)
 - [Packages](#packages)
   - [Tables](#tables)
   - [Graphics](#graphics)
     - [TikZ](#tikz)
     - [PSTricks](#pstricks)
-
 - [Templates](#templates)
 - [Resources](#resources)
-- <!-- /TOC -->
+<!-- /TOC -->
 
 # Distributions
 - [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for Mac OS X, basically TeXLive with some Mac-specific tools added.
@@ -113,14 +109,14 @@ _Online editors that allow you to edit documents collaboratively._
 # Legend
 
 | Logo                | Description       |
-|---------------------|-------------------|
+|:-------------------:|-------------------|
 | ![Mac](mac)         | Mac OS X          |
 | ![Linux](linux)     | GNU/Linux         |
 | ![Windows](windows) | Microsoft Windows |
 
 All trademarks are property of their respective owners.
 
-[mac]: ./fig/apple.svg
-[linux]: ./fig/linux.svg
-[windows]: ./fig/windows.svg
-[foss]: ./fig/foss.svg
+[mac]: https://raw.githubusercontent.com/awesome-LaTeX/master/fig/apple.svg
+[linux]: https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
+[windows]: https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
+[foss]: https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
