@@ -2,34 +2,28 @@
 This is a curated list of awesome stuff for the (La)TeX typesetting system. [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## Contents
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
-
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 - [Awesome LaTeX](#awesome-latex)
   - [Contents](#contents)
-  - [Legend](#legend)
-
 - [Distributions](#distributions)
 - [Engines](#engines)
   - [LaTeX formulas on the web](#latex-formulas-on-the-web)
-
 - [Tools](#tools)
 - [LaTeX-compatible tools](#latex-compatible-tools)
 - [Editors](#editors)
   - [LaTeX-focussed](#latex-focussed)
   - [General purpose text editors](#general-purpose-text-editors)
   - [Online editors](#online-editors)
-
 - [Bibliography tools](#bibliography-tools)
 - [Packages](#packages)
   - [Tables](#tables)
   - [Graphics](#graphics)
     - [TikZ](#tikz)
     - [PSTricks](#pstricks)
-
 - [Templates](#templates)
 - [Resources](#resources)
-- <!-- /TOC -->
-
+- [Legend](#legend)
+<!-- /TOC -->
 
 # Distributions
 - [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for Mac OS X, basically TeXLive with some Mac-specific tools added.
@@ -109,16 +103,17 @@ _Online editors that allow you to edit documents collaboratively._
 - [http://www.dickimaw-books.com/latexresources.html](http://www.dickimaw-books.com/latexresources.html)
 - [http://www.tug.org/texshowcase/](http://www.tug.org/texshowcase/)
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
-- <!-- Icons -->
 
+
+<!-- Icons -->
 
 # Legend
 
-Logo                | Description
-:-----------------: | :----------------
-![Mac][mac]         | Mac OS X
-![Linux][linux]     | GNU/Linux
-![Windows][windows] | Microsoft Windows
+|        Logo         | Description       |
+|:-------------------:|:------------------|
+|     ![Mac][mac]     | Mac OS X          |
+|   ![Linux][linux]   | GNU/Linux         |
+| ![Windows][windows] | Microsoft Windows |
 
 All trademarks are property of their respective owners.
 
