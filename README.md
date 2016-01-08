@@ -109,15 +109,16 @@ _Online editors that allow you to edit documents collaboratively._
 
 # Legend
 
-|        Logo         | Description       |
-|:-------------------:|:------------------|
-|     ![Mac][mac]     | Mac OS X          |
-|   ![Linux][linux]   | GNU/Linux         |
-| ![Windows][windows] | Microsoft Windows |
+|        Logo         | Description                                            |
+|:-------------------:|:-------------------------------------------------------|
+|     ![Mac][mac]     | [Mac OS X](http://www.apple.com/osx/)                  |
+|   ![Linux][linux]   | [GNU/Linux](http://www.linux.org)                      |
+| ![Windows][windows] | [Microsoft Windows](https://www.microsoft.com/windows) |
+| ![FOSS][FOSS]       | [Free Open-Source Software](https://opensource.org)    |
 
 All trademarks are property of their respective owners.
 
-[mac]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/apple.svg
-[linux]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
-[windows]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
-[foss]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
+[mac]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/apple.svg
+[linux]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
+[windows]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
+[foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/awesome-LaTeX/master/fig/foss.svg
