@@ -2,34 +2,39 @@
 This is a curated list of awesome stuff for the (La)TeX typesetting system. [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## Contents
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [Awesome LaTeX](#awesome-latex)
   - [Contents](#contents)
   - [Legend](#legend)
+
 - [Distributions](#distributions)
 - [Engines](#engines)
   - [LaTeX formulas on the web](#latex-formulas-on-the-web)
+
 - [Tools](#tools)
 - [LaTeX-compatible tools](#latex-compatible-tools)
 - [Editors](#editors)
   - [LaTeX-focussed](#latex-focussed)
   - [General purpose text editors](#general-purpose-text-editors)
   - [Online editors](#online-editors)
+
 - [Bibliography tools](#bibliography-tools)
 - [Packages](#packages)
   - [Tables](#tables)
   - [Graphics](#graphics)
     - [TikZ](#tikz)
     - [PSTricks](#pstricks)
+
 - [Templates](#templates)
 - [Resources](#resources)
-<!-- /TOC -->
+- <!-- /TOC -->
+
 
 # Distributions
 - [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for Mac OS X, basically TeXLive with some Mac-specific tools added.
 - [MikTeX](http://miktex.org) - Most common LaTeX distribution for Windows (only).
-- [TeX Live](http://www.tug.org/texlive/) - Most common LaTeX distribution for Unices and Linux, but also works on Windows. ![Linux](linux) ![Windows](windows)
+- [TeX Live](http://www.tug.org/texlive/) - Most common LaTeX distribution for Unices and Linux, but also works on Windows. ![Linux][linux] ![Windows][windows]
 
 # Engines
 - [pdfTeX](http://www.tug.org/applications/pdftex/) - TeX compiler that produces PDF files immediately instead of DVI files (nowadays, this is the standard compiler for many users).
@@ -44,13 +49,13 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 # Tools
 - Pandoc
 - Online Math editors
-- [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations into your documents on the Mac. ![Mac](mac)
+- [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations into your documents on the Mac. ![Mac][mac]
 
 # LaTeX-compatible tools
-- [TikzEdt](http://www.tikzedt.org) - WYSIWYG and text-based editor for TikZ pictures. ![Windows](windows) ![Mac](mac) ![Linux](linux): [GitHub repo](https://github.com/hchapman/tikzedt). Abandonded?
+- [TikzEdt](http://www.tikzedt.org) - WYSIWYG and text-based editor for TikZ pictures. ![Windows][windows] ![Mac][mac] ![Linux][linux]: [GitHub repo](https://github.com/hchapman/tikzedt). Abandonded?
 - KTikz
 - [IPE](http://ipe.otfried.org)
-- [TPx](http://tpx.sourceforge.net). ![Windows](windows) Abandoned?
+- [TPx](http://tpx.sourceforge.net). ![Windows][windows] Abandoned?
 - [http://www.geogebra.org/cms/](http://www.geogebra.org/cms/)
 - [https://wiki.gnome.org/Apps/Dia](https://wiki.gnome.org/Apps/Dia)
 - [https://github.com/fredokun/TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - ![Mac][Mac] ![Linux][Linux]
@@ -104,19 +109,20 @@ _Online editors that allow you to edit documents collaboratively._
 - [http://www.dickimaw-books.com/latexresources.html](http://www.dickimaw-books.com/latexresources.html)
 - [http://www.tug.org/texshowcase/](http://www.tug.org/texshowcase/)
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
+- <!-- Icons -->
 
-<!-- Icons -->
+
 # Legend
 
-| Logo                | Description       |
-|:-------------------:|-------------------|
-| ![Mac](mac)         | Mac OS X          |
-| ![Linux](linux)     | GNU/Linux         |
-| ![Windows](windows) | Microsoft Windows |
+Logo                | Description
+:-----------------: | :----------------
+![Mac][mac]         | Mac OS X
+![Linux][linux]     | GNU/Linux
+![Windows][windows] | Microsoft Windows
 
 All trademarks are property of their respective owners.
 
-[mac]: https://raw.githubusercontent.com/awesome-LaTeX/master/fig/apple.svg
-[linux]: https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
-[windows]: https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
-[foss]: https://raw.githubusercontent.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
+[mac]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/apple.svg
+[linux]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
+[windows]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
+[foss]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
