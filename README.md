@@ -29,9 +29,9 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 <!-- /TOC -->
 
 # Distributions
-- [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for Mac OS X, basically TeXLive with some Mac-specific tools added.
-- [MikTeX](http://miktex.org) - Most common LaTeX distribution for Windows (only).
+- [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for Mac OS X, basically TeXLive with some Mac-specific tools added. ![Mac][mac]
 - [TeX Live](http://www.tug.org/texlive/) - Most common LaTeX distribution for Unices and Linux, but also works on Windows. ![Linux][linux] ![Windows][windows]
+- [MikTeX](http://miktex.org) - Most common LaTeX distribution for Windows (only). ![Windows][windows]
 
 # Engines
 - [pdfTeX](http://www.tug.org/applications/pdftex/) - TeX compiler that produces PDF files immediately instead of DVI files (nowadays, this is the standard compiler for many users).
@@ -50,12 +50,12 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 
 # LaTeX-compatible tools
 - [TikzEdt](http://www.tikzedt.org) - WYSIWYG and text-based editor for TikZ pictures. ![Windows][windows] ![Mac][mac] ![Linux][linux]: [GitHub repo](https://github.com/hchapman/tikzedt). Abandonded?
+- [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - ![Mac][Mac] ![Linux][Linux]
 - KTikz
 - [IPE](http://ipe.otfried.org)
 - [TPx](http://tpx.sourceforge.net). ![Windows][windows] Abandoned?
-- [http://www.geogebra.org/cms/](http://www.geogebra.org/cms/)
-- [https://wiki.gnome.org/Apps/Dia](https://wiki.gnome.org/Apps/Dia)
-- [https://github.com/fredokun/TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - ![Mac][Mac] ![Linux][Linux]
+- [GeoGebra](http://www.geogebra.org/cms/). Cross-platform geometry tool with output to TikZ. ![Mac][mac] ![Linux][linux] ![Windows][windows]
+- [Dia](https://wiki.gnome.org/Apps/Dia)
 
 # Editors
 _Because editing LaTeX code with notepad is not awesome._
@@ -84,15 +84,16 @@ _Because editing LaTeX code with notepad is not awesome._
 
 ## Online editors
 _Online editors that allow you to edit documents collaboratively._
-- ShareLaTeX
-- Overleaf
-- Papeeria
-- Authorea
+
+- [Authorea](https://www.authorea.com) - Online editor with built-in git support and bibliography tools.
+- [ShareLaTeX](https://www.sharelatex.com) - Has pretty great LaTeX documentation and simple version control.
+- [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and git support.
+- [Papeeria](https://papeeria.com) - Online editor with built-in git support.
+
 
 # Bibliography tools
-- JabRef
+- [JabRef](http://jabref.sourceforge.net) - No-nonsense bibtex editor that is cross-platform (Java). ![mac][mac] ![windows][windows] ![linux][linux] ![foss][foss]
 - Bibdesk
-- 
 
 # Packages
 - [CTAN](http://ctan.org) - The Comprehensive TeX Archive Network is the place to look for useful packages and documentation.
