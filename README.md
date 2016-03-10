@@ -168,4 +168,4 @@ All trademarks are property of their respective owners.
 [mac]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/apple.svg
 [linux]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
 [windows]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
-[foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/awesome-LaTeX/master/fig/foss.svg
+[foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
