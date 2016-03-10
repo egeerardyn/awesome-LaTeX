@@ -61,6 +61,8 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 _Because editing LaTeX code with notepad is not awesome._
 
 ## LaTeX-focussed
+_Some of the most awesome editor for LaTeX do just that: edit LaTeX_
+
 - Kile
 - TeXMaker
 - WinEdt
@@ -70,6 +72,8 @@ _Because editing LaTeX code with notepad is not awesome._
 - BakomaTex
 
 ## General purpose text editors
+_These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!_
+
 - Atom
   - LaTeXTools
 
@@ -94,6 +98,8 @@ _Online editors that allow you to edit documents collaboratively._
 # Bibliography tools
 - [JabRef](http://jabref.sourceforge.net) - No-nonsense bibtex editor that is cross-platform (Java). ![mac][mac] ![windows][windows] ![linux][linux] ![foss][foss]
 - Bibdesk
+- Zotero
+- Mendeley
 
 # Packages
 - [CTAN](http://ctan.org) - The Comprehensive TeX Archive Network is the place to look for useful packages and documentation.
@@ -109,11 +115,12 @@ _Online editors that allow you to edit documents collaboratively._
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
 
 ### PSTricks
+
 # Templates
 
 - [LaTeX templates](http://www.latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
 - [HowtoTeX: templates](http://www.howtotex.com/category/templates/) - Different templates for LaTeX under a CC-NC-SA license.
--
+
 
 # Symbols
 
@@ -141,7 +148,8 @@ _Online editors that allow you to edit documents collaboratively._
 # Social media
 
 - [Twitter: @TeXtip](https://twitter.com/TeXtip) - Tips related to (La)TeX by [John D. Cook](http://www.johndcook.com/).
-<!-- Icons -->
+
+---------------------------------------------------------------------------
 
 # TODO
 __Some random stuff that still needs to be categorized__
@@ -152,6 +160,8 @@ __Some random stuff that still needs to be categorized__
 - http://www.tug.org/texshowcase/
 - http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras
 - chktex, diction, ...
+
+<!-- Icons -->
 
 # Legend
 
