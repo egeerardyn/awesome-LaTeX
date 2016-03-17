@@ -8,5 +8,5 @@ engines:
         enabled: false
 ratings:
   paths: []
-exclude_paths: []
-- "LICENSE.md"
+exclude_paths:
+  - "LICENSE.md"
