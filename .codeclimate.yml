@@ -3,6 +3,9 @@ engines:
     enabled: true
   markdownlint:
     enabled: true
+    checks:
+      MD013: # allow line length > 80 chars
+        enabled: false
 ratings:
   paths: []
 exclude_paths: []
