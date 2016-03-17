@@ -2,7 +2,8 @@ These guidelines have been adapted from [awesome CONTRIBUTING](https://github.co
 
 # Contribution Guidelines
 
-### Table of Contents
+## Table of Contents
+
 - [Adding to this list](#adding-to-this-list)
 - [Only awesome is awesome](#only-awesome-is-awesome)
 - [Comment on why something is awesome](#comment-on-why-something-is-awesome)
@@ -37,5 +38,4 @@ Please ensure your pull request adheres to the following guidelines:
 - Self-promotion can be okay, but _only_ if you clearly state your involvement.
 - The pull request and commit should have a useful title.
 
-**Thank you for your suggestions!**
-
+Finally, **thank you for your suggestions!**
