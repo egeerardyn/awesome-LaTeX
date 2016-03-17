@@ -50,19 +50,19 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 
 ## Tools
 
-- Pandoc
+- [Pandoc](http://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, ...) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss][foss]
 - Online Math editors
 - [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations into your documents on the Mac. ![Mac][mac]
+- [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents.
 
-## LaTeX-compatible tools
+## LaTeX-compatible GUI tools
 
 - [TikzEdt](http://www.tikzedt.org) - WYSIWYG and text-based editor for TikZ pictures. ![Windows][windows] ![Mac][mac] ![Linux][linux]: [GitHub repo](https://github.com/hchapman/tikzedt). Abandonded?
-- [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - ![Mac][Mac] ![Linux][Linux]
-- KTikz
-- [IPE](http://ipe.otfried.org)
+- [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![Mac][Mac] ![Linux][Linux] ![foss][foss]
+- [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents.
 - [TPx](http://tpx.sourceforge.net). ![Windows][windows] Abandoned?
-- [GeoGebra](http://www.geogebra.org/cms/). Cross-platform geometry tool with output to TikZ. ![Mac][mac] ![Linux][linux] ![Windows][windows]
-- [Dia](https://wiki.gnome.org/Apps/Dia)
+- [GeoGebra](http://www.geogebra.org/cms/) -  Cross-platform geometry tool with output to TikZ.
+- [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code.
 
 ## Editors
 
@@ -72,29 +72,34 @@ Because editing LaTeX code with notepad is not awesome.
 
 Some of the most awesome editor for LaTeX do just that: edit LaTeX
 
-- Kile
-- TeXMaker
-- WinEdt
-- TeXniCenter
-- LyX
-- TeXshop
-- BakomaTex
+- [Kile](http://kile.sourceforge.net) - Just a great LaTeX editor originally from the Linux/KDE community, but runs just fine on Windows and OS X as well. ![foss][foss]
+- [TeXMaker](http://www.xm1math.net/texmaker/) - Pretty good alternative to Kile.
+- [TeXStudio](http://www.texstudio.org) - Cross-platform LaTeX editor that stems from TeXMaker.
+- [WinEdt](http://www.winedt.com) - The LaTeX editor many people swear by. Only for ![Windows][windows].
+- [TeXnicCenter](http://www.texniccenter.org) - A quite old but free and decent editor for LaTeX. ![Windows][windows]
+- [LyX](https://www.lyx.org) - Cross-platform WYSIWYM editor that uses LaTeX behind the scenes to render documents. ![foss][foss]
+- [TeXshop](http://pages.uoregon.edu/koch/texshop/) - No-nonsense editor for LaTeX documents which is included in MacTeX. ![Mac][mac]
+- [TeXWorks](https://www.tug.org/texworks/) - No-nonsense editor for LaTeX code, modeled after TeXShop, but this one is cross-platform. ![foss][foss]
+- [BakomaTex](http://www.bakoma-tex.com) - Commercial LaTeX editor that allows to edit your document both using its source code and WYSIWYG.
+- [Inlage](http://www.inlage.com/home) - Commercial LaTeX editor with handwritten formula recognition, Excel importing and more nifty features. ![Windows][windows]
 
 ### General purpose text editors
 
 These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!
 
-- Atom
-  - LaTeXTools
+- [Atom](https://atom.io) ![foss][foss]
+  - [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name.
 
 - Sublime Text
-  - LaTeXing
-  - LaTeXTools
+  - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
+  - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss][foss]
 
-- Emacs
-  - AucTeX
+- [Emacs](https://www.gnu.org/software/emacs/) ![foss][foss]
+  - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures.
 
-- Vim
+- [Vim](http://www.vim.org) ![foss][foss]
+  - [Vim-LaTeX](http://vim-latex.sourceforge.net)
+  - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document.
 
 ### Online editors
 
@@ -107,10 +112,10 @@ Online editors that allow you to edit documents collaboratively.
 
 ## Bibliography tools
 
-- [JabRef](http://jabref.sourceforge.net) - No-nonsense bibtex editor that is cross-platform (Java). ![mac][mac] ![windows][windows] ![linux][linux] ![foss][foss]
-- Bibdesk
-- Zotero
-- Mendeley
+- [JabRef](http://jabref.sourceforge.net) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![foss][foss]
+- [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![Mac][mac].
+- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors.
+- [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow.
 
 ## Packages
 
@@ -118,18 +123,23 @@ Online editors that allow you to edit documents collaboratively.
 
 ### Tables
 
-- Excel2LaTeX
-- csv2latex
+- [Excel2LaTeX](https://www.ctan.org/pkg/excel2latex?lang=en) - Excel (2010 and older) macros to produce LaTeX `tabular` code. ![Windows][windows] ![Mac][mac]
+- [csv2latex](http://www.freecode.com/projects/csv2latex) - Converts CSV files from your favorite programs to LaTeX `tabular`s. ![Linux][linux] ![Mac][mac]
 - [Tables Generator](http://www.tablesgenerator.com) - This website provides a graphical interface to input your table and produces properly-formatted code for LaTeX, Markdown, HTML, ...
 - [pgfplotstable](https://www.ctan.org/pkg/pgfplotstable?lang=en) - This package dis­plays nu­mer­i­cal ta­bles rounded to de­sired pre­ci­sion in var­i­ous dis­play for­mats. It can even read CSV files to include directly in your LaTeX document.
 
 ### Graphics
 
+#### PSTricks
+
+PSTricks is a great library to draw figures for inclusion in PostScript/DVI files.
+
 #### TikZ
 
-- [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
+TikZ is an awesome package with many plugins that allow you to create figures from within your LaTeX documents.
+Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
-#### PSTricks
+- [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
 
 ## Templates
 
@@ -174,13 +184,15 @@ Some random stuff that still needs to be categorized.
 - [ ] <https://github.com/MartinThoma/LaTeX-examples/>
 - [ ] <http://www.tug.org/texshowcase/>
 - [ ] <http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras>
-- [ ] chktex, diction, ...
+- [ ] chktex
 
 <!-- Icons -->
 
 ## Legend
 
 What are all these weird icons all over the place?
+
+The icons indicating Mac, Linux and Windows compatibility show when a program is *only* available for those platforms. So absence of those icons means that the software is fully cross-platform.
 
 |        Logo         | Description                                            |
 |:-------------------:|:-------------------------------------------------------|
@@ -195,3 +207,9 @@ All trademarks are property of their respective owners.
 [linux]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
 [windows]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
 [foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
+
+## Organizational information
+
+If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md).
+
+This list is licensed as [CC-BY-SA 4.0](LICENSE.md).
