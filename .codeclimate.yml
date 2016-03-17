@@ -9,3 +9,4 @@ engines:
 ratings:
   paths: []
 exclude_paths: []
+- "LICENSE.md"
