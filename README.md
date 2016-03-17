@@ -5,28 +5,33 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 
 ## Contents
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Awesome LaTeX](#awesome-latex)
-  - [Contents](#contents)
-- [Distributions](#distributions)
-- [Engines](#engines)
-  - [LaTeX formulas on the web](#latex-formulas-on-the-web)
-- [Tools](#tools)
-- [LaTeX-compatible tools](#latex-compatible-tools)
-- [Editors](#editors)
-  - [LaTeX-focussed](#latex-focussed)
-  - [General purpose text editors](#general-purpose-text-editors)
-  - [Online editors](#online-editors)
-- [Bibliography tools](#bibliography-tools)
-- [Packages](#packages)
-  - [Tables](#tables)
-  - [Graphics](#graphics)
-    - [TikZ](#tikz)
-    - [PSTricks](#pstricks)
-- [Templates](#templates)
-- [Resources](#resources)
-- [Legend](#legend)
+	- [Contents](#contents)
+	- [Distributions](#distributions)
+	- [Engines](#engines)
+		- [LaTeX formulas on the web](#latex-formulas-on-the-web)
+	- [Tools](#tools)
+	- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
+	- [Editors](#editors)
+		- [LaTeX-focussed](#latex-focussed)
+		- [General purpose text editors](#general-purpose-text-editors)
+		- [Online editors](#online-editors)
+	- [Bibliography tools](#bibliography-tools)
+	- [Packages](#packages)
+		- [Tables](#tables)
+		- [Graphics](#graphics)
+			- [PSTricks](#pstricks)
+			- [TikZ](#tikz)
+	- [Templates](#templates)
+	- [Symbols](#symbols)
+	- [Resources](#resources)
+	- [Tutorials](#tutorials)
+	- [Books](#books)
+	- [Social media](#social-media)
+- [Meta Awesome-LaTeX](#meta-awesome-latex)
+	- [Legend](#legend)
 
 <!-- /TOC -->
 
@@ -38,31 +43,31 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 
 ## Engines
 
-- [pdfTeX](http://www.tug.org/applications/pdftex/) - TeX compiler that produces PDF files immediately instead of DVI files (nowadays, this is the standard compiler for many users).
-- [XeTeX](http://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the  fonts of your operating system instead of only TeX fonts).
-- [LuaTeX](http://www.luatex.org) - (La)TeX compiler that supports Lua code for scripting and has improved unicode and font support than standard TeX/pdfTeX.
+- [pdfTeX](http://www.tug.org/applications/pdftex/) - TeX compiler that produces PDF files immediately instead of DVI files (nowadays, this is the standard compiler for many users). ![foss][foss]
+- [XeTeX](http://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the  fonts of your operating system instead of only TeX fonts). ![foss][foss]
+- [LuaTeX](http://www.luatex.org) - (La)TeX compiler that supports Lua code for scripting and has improved unicode and font support than standard TeX/pdfTeX. ![foss][foss]
 
 ### LaTeX formulas on the web
 
-- [MathJaX](https://www.mathjax.org) - JavaScript engine to render mathematical formulas on the web. The outcome looks really slick.
-- [mimeTeX](http://www.forkosh.com/mimetex.html) - mimeTeX is a rather old tool to render LaTeX formulas to PNG figures for your web site, without actually needing a LaTeX installation on your server.
-- [mathTeX](http://www.forkosh.com/mathtex.html) - mathTeX is the successor of mimeTeX: it produces nicer-looking images but it requires LaTeX to be installed on your server.
+- [MathJaX](https://www.mathjax.org) - JavaScript engine to render mathematical formulas on the web. The outcome looks really slick. ![foss][foss]
+- [mimeTeX](http://www.forkosh.com/mimetex.html) - mimeTeX is a rather old tool to render LaTeX formulas to PNG figures for your web site, without actually needing a LaTeX installation on your server. ![foss][foss]
+- [mathTeX](http://www.forkosh.com/mathtex.html) - mathTeX is the successor of mimeTeX: it produces nicer-looking images but it requires LaTeX to be installed on your server. ![foss][foss]
 
 ## Tools
 
 - [Pandoc](http://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, ...) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss][foss]
-- Online Math editors
-- [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations into your documents on the Mac. ![Mac][mac]
-- [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents.
+- [Codecogs Eqn Editor](https://www.codecogs.com/latex/eqneditor.php) - Online LaTeX equation editor that allows you to produce figures containing an equation.
+- [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, ...) into your non-LaTeX documents on the Mac. ![Mac][mac]
+- [KLaTeXFormula](http://klatexformula.sourceforge.net) - Cross-platform alternative for LaTeXit. ![foss][foss]
+- [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
 
 ## LaTeX-compatible GUI tools
 
-- [TikzEdt](http://www.tikzedt.org) - WYSIWYG and text-based editor for TikZ pictures. ![Windows][windows] ![Mac][mac] ![Linux][linux]: [GitHub repo](https://github.com/hchapman/tikzedt). Abandonded?
+- [TikzEdt](http://www.tikzedt.org) (also:  [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss][foss]
 - [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![Mac][Mac] ![Linux][Linux] ![foss][foss]
-- [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents.
-- [TPx](http://tpx.sourceforge.net). ![Windows][windows] Abandoned?
-- [GeoGebra](http://www.geogebra.org/cms/) -  Cross-platform geometry tool with output to TikZ.
-- [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code.
+- [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss][foss]
+- [GeoGebra](http://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss][foss]
+- [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss][foss]
 
 ## Editors
 
@@ -90,7 +95,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 - [Atom](https://atom.io) ![foss][foss]
   - [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name.
 
-- Sublime Text
+- [Sublime Text](http://www.sublimetext.com)
   - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
   - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss][foss]
 
@@ -156,8 +161,12 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TUG](https://www.tug.org) - The TeX User Group is a way to get in touch with other (La)TeX users.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [http://www.dickimaw-books.com/latexresources.html](http://www.dickimaw-books.com/latexresources.html)
-- [TUG: TeX showcase](http://www.tug.org/texshowcase/)
+- [TUG: TeX showcase](http://www.tug.org/texshowcase/) - Website from the TUG that shows some examples of what LaTeX can do.
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
+- [12 Great resources for getting started with LaTeX](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex/) - Nice overview of useful resources for beginners.
+- [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
+- [HowtoTeX LaTeX](http://latex.howtotex.com) - Start page with useful resources for LaTeX users.
+- [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
 
 ## Tutorials
 
@@ -175,22 +184,16 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ---------------------------------------------------------------------------
 
-## TODO
-
-Some random stuff that still needs to be categorized.
-
-- [ ] <http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex/>
-- [ ] <http://latex.howtotex.com>
-- [ ] <https://github.com/MartinThoma/LaTeX-examples/>
-- [ ] <http://www.tug.org/texshowcase/>
-- [ ] <http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras>
-- [ ] chktex
-
 <!-- Icons -->
 
-## Legend
+# Meta Awesome-LaTeX
 
-What are all these weird icons all over the place?
+This list is licensed as [CC-BY-SA 4.0](LICENSE.md).
+
+If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md) guidlines.
+
+
+## Legend
 
 The icons indicating Mac, Linux and Windows compatibility show when a program is *only* available for those platforms. So absence of those icons means that the software is fully cross-platform.
 
@@ -201,15 +204,11 @@ The icons indicating Mac, Linux and Windows compatibility show when a program is
 | ![Windows][windows] | [Microsoft Windows](https://www.microsoft.com/windows) |
 |    ![FOSS][FOSS]    | [Free Open-Source Software](https://opensource.org)    |
 
+---------------------------------------------------------------------------
+
 All trademarks are property of their respective owners.
 
 [mac]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/apple.svg
 [linux]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
 [windows]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
 [foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
-
-## Organizational information
-
-If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md).
-
-This list is licensed as [CC-BY-SA 4.0](LICENSE.md).
