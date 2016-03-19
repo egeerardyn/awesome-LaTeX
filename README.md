@@ -59,6 +59,7 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 - [Codecogs Eqn Editor](https://www.codecogs.com/latex/eqneditor.php) - Online LaTeX equation editor that allows you to produce figures containing an equation.
 - [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, ...) into your non-LaTeX documents on the Mac. ![Mac][mac]
 - [KLaTeXFormula](http://klatexformula.sourceforge.net) - Cross-platform alternative for LaTeXit. ![foss][foss]
+- [EqualX](http://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![Windows][windows] ![Linux][linux] ![foss][foss]
 - [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
 
 ## LaTeX-compatible GUI tools
