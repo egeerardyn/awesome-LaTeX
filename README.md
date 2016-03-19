@@ -12,13 +12,13 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 	- [Distributions](#distributions)
 	- [Engines](#engines)
 		- [LaTeX formulas on the web](#latex-formulas-on-the-web)
-	- [Tools](#tools)
-	- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
 	- [Editors](#editors)
 		- [LaTeX-focussed](#latex-focussed)
 		- [General purpose text editors](#general-purpose-text-editors)
 		- [Online editors](#online-editors)
 	- [Bibliography tools](#bibliography-tools)
+	- [Misc. Tools](#misc-tools)
+	- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
 	- [Packages](#packages)
 		- [Tables](#tables)
 		- [Graphics](#graphics)
@@ -52,23 +52,6 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 - [MathJaX](https://www.mathjax.org) - JavaScript engine to render mathematical formulas on the web. The outcome looks really slick. ![foss][foss]
 - [mimeTeX](http://www.forkosh.com/mimetex.html) - mimeTeX is a rather old tool to render LaTeX formulas to PNG figures for your web site, without actually needing a LaTeX installation on your server. ![foss][foss]
 - [mathTeX](http://www.forkosh.com/mathtex.html) - mathTeX is the successor of mimeTeX: it produces nicer-looking images but it requires LaTeX to be installed on your server. ![foss][foss]
-
-## Tools
-
-- [Pandoc](http://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, ...) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss][foss]
-- [Codecogs Eqn Editor](https://www.codecogs.com/latex/eqneditor.php) - Online LaTeX equation editor that allows you to produce figures containing an equation.
-- [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, ...) into your non-LaTeX documents on the Mac. ![Mac][mac]
-- [KLaTeXFormula](http://klatexformula.sourceforge.net) - Cross-platform alternative for LaTeXit. ![foss][foss]
-- [EqualX](http://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![Windows][windows] ![Linux][linux] ![foss][foss]
-- [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
-
-## LaTeX-compatible GUI tools
-
-- [TikzEdt](http://www.tikzedt.org) (also:  [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss][foss]
-- [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![Mac][Mac] ![Linux][Linux] ![foss][foss]
-- [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss][foss]
-- [GeoGebra](http://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss][foss]
-- [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss][foss]
 
 ## Editors
 
@@ -123,6 +106,23 @@ Online editors that allow you to edit documents collaboratively.
 - [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors.
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow.
 
+## Misc. Tools
+
+- [Pandoc](http://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, ...) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss][foss]
+- [Codecogs Eqn Editor](https://www.codecogs.com/latex/eqneditor.php) - Online LaTeX equation editor that allows you to produce figures containing an equation.
+- [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, ...) into your non-LaTeX documents on the Mac. ![Mac][mac]
+- [KLaTeXFormula](http://klatexformula.sourceforge.net) - Cross-platform alternative for LaTeXit. ![foss][foss]
+- [EqualX](http://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![Windows][windows] ![Linux][linux] ![foss][foss]
+- [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
+
+## LaTeX-compatible GUI tools
+
+- [TikzEdt](http://www.tikzedt.org) (also:  [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss][foss]
+- [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![Mac][Mac] ![Linux][Linux] ![foss][foss]
+- [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss][foss]
+- [GeoGebra](http://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss][foss]
+- [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss][foss]
+
 ## Packages
 
 - [CTAN](http://ctan.org) - The Comprehensive TeX Archive Network is the place to look for useful packages and documentation.
@@ -161,7 +161,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 - [TUG](https://www.tug.org) - The TeX User Group is a way to get in touch with other (La)TeX users.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
-- [http://www.dickimaw-books.com/latexresources.html](http://www.dickimaw-books.com/latexresources.html)
+- [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
 - [TUG: TeX showcase](http://www.tug.org/texshowcase/) - Website from the TUG that shows some examples of what LaTeX can do.
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
 - [12 Great resources for getting started with LaTeX](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex/) - Nice overview of useful resources for beginners.
