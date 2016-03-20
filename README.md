@@ -78,18 +78,18 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX
 These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!
 
 - [Atom](https://atom.io) [![Atom][awesome]](https://github.com/mehcode/awesome-atom) ![foss][foss]
-    - [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name. ![foss][foss]
+	- [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name. ![foss][foss]
 
 - [Sublime Text](http://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
-    - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
-    - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss][foss]
+	- [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
+	- [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss][foss]
 
 - [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss][foss]
-    - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss][foss]
+	- [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss][foss]
 
 - [Vim](http://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss][foss]
-    - [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss][foss]
-    - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss][foss]
+	- [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss][foss]
+	- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss][foss]
 
 ### Online editors
 
@@ -211,12 +211,12 @@ If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md) gu
 
 The icons indicating Mac, Linux and Windows compatibility show when a program is *only* available for those platforms. So absence of those icons means that the software is fully cross-platform.
 
-|        Logo         | Description                                            |
+|       Logo          | Description                                            |
 |:-------------------:|:-------------------------------------------------------|
-|     ![Mac][mac]     | [Mac OS X](http://www.apple.com/osx/)                  |
-|   ![Linux][linux]   | [GNU/Linux](http://www.linux.org)                      |
+| ![Mac][mac]         | [Mac OS X](http://www.apple.com/osx/)                  |
+| ![Linux][linux]     | [GNU/Linux](http://www.linux.org)                      |
 | ![Windows][windows] | [Microsoft Windows](https://www.microsoft.com/windows) |
-|    ![FOSS][FOSS]    | [Free Open-Source Software](https://opensource.org)    |
+| ![FOSS][FOSS]      | [Free Open-Source Software](https://opensource.org)     |
 
 ---------------------------------------------------------------------------
 
