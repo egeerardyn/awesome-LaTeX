@@ -207,8 +207,8 @@ The icons indicating Mac, Linux and Windows compatibility show when a program is
 
 All trademarks are property of their respective owners.
 
-[mac]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/apple.svg
-[linux]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
-[windows]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
-[foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
+[mac]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/700138fe725574e1741f148df6d1f77a8aa07eee/fig/apple.svg
+[linux]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/700138fe725574e1741f148df6d1f77a8aa07eee/fig/linux.svg
+[windows]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/700138fe725574e1741f148df6d1f77a8aa07eee/fig/windows.svg
+[foss]: https://cdn.rawgit.com/egeerardyn/awesome-LaTeX/700138fe725574e1741f148df6d1f77a8aa07eee/fig/foss.svg
 [awesome]:  https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
