@@ -1,37 +1,37 @@
 # Awesome LaTeX
 
-This is a curated list of awesome stuff for the (La)TeX typesetting system. [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Issue Count](https://codeclimate.com/github/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/github/egeerardyn/awesome-LaTeX)
+This is a curated list of awesome stuff for the (La)TeX typesetting system.
+[![Awesome][awesome]](https://github.com/sindresorhus/awesome) [![Issue Count](https://codeclimate.com/github/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/github/egeerardyn/awesome-LaTeX)
 
 ## Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Awesome LaTeX](#awesome-latex)
-    - [Contents](#contents)
-    - [Distributions](#distributions)
-    - [Engines](#engines)
-        - [LaTeX formulas on the web](#latex-formulas-on-the-web)
-    - [Editors](#editors)
-        - [LaTeX-focussed](#latex-focussed)
-        - [General purpose text editors](#general-purpose-text-editors)
-        - [Online editors](#online-editors)
-    - [Bibliography tools](#bibliography-tools)
-    - [Misc. Tools](#misc-tools)
-    - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
-    - [Packages](#packages)
-        - [Tables](#tables)
-        - [Graphics](#graphics)
-            - [PSTricks](#pstricks)
-            - [TikZ](#tikz)
-    - [Templates](#templates)
-    - [Symbols](#symbols)
-    - [Resources](#resources)
-    - [Tutorials](#tutorials)
-    - [Books](#books)
-    - [Social media](#social-media)
+	- [Contents](#contents)
+	- [Distributions](#distributions)
+	- [Engines](#engines)
+		- [LaTeX formulas on the web](#latex-formulas-on-the-web)
+	- [Editors](#editors)
+		- [LaTeX-focussed](#latex-focussed)
+		- [General purpose text editors](#general-purpose-text-editors)
+		- [Online editors](#online-editors)
+	- [Bibliography tools](#bibliography-tools)
+	- [Misc. Tools](#misc-tools)
+	- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
+	- [Packages](#packages)
+		- [Tables](#tables)
+		- [Graphics](#graphics)
+			- [PSTricks](#pstricks)
+			- [TikZ](#tikz)
+	- [Templates](#templates)
+	- [Symbols](#symbols)
+	- [Resources](#resources)
+	- [Tutorials](#tutorials)
+	- [Books](#books)
+	- [Social media](#social-media)
 - [Meta Awesome-LaTeX](#meta-awesome-latex)
-    - [Legend](#legend)
+	- [Legend](#legend)
 
 <!-- /TOC -->
 
@@ -76,19 +76,19 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX
 
 These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!
 
-- [Atom](https://atom.io) ![foss][foss]
-  - [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name.
+- [Atom](https://atom.io) [![Atom][awesome]](https://github.com/mehcode/awesome-atom) ![foss][foss]
+  - [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name. ![foss][foss]
 
-- [Sublime Text](http://www.sublimetext.com)
+- [Sublime Text](http://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
   - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
   - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss][foss]
 
-- [Emacs](https://www.gnu.org/software/emacs/) ![foss][foss]
-  - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures.
+- [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss][foss]
+  - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss][foss]
 
-- [Vim](http://www.vim.org) ![foss][foss]
-  - [Vim-LaTeX](http://vim-latex.sourceforge.net)
-  - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document.
+- [Vim](http://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss][foss]
+  - [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss][foss]
+  - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss][foss]
 
 ### Online editors
 
@@ -213,3 +213,4 @@ All trademarks are property of their respective owners.
 [linux]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/linux.svg
 [windows]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/windows.svg
 [foss]: https://rawgit.com/egeerardyn/awesome-LaTeX/master/fig/foss.svg
+[awesome]:  https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
