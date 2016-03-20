@@ -6,6 +6,8 @@ engines:
     checks:
       MD013: # allow line length > 80 chars
         enabled: false
+      MD025: # allow multiple H1 headers
+        enabled: false
 ratings:
   paths: []
 exclude_paths:
