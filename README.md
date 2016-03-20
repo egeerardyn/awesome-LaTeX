@@ -112,7 +112,8 @@ Online editors that allow you to edit documents collaboratively.
 
 Compiling LaTeX documents can be tedious, build tools help you to manage the compilation process.
 
-- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/cereda/arara))- Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss][foss]
+- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/cereda/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss][foss]
+- [latexmk](https://www.ctan.org/pkg/latexmk) - Build tool that is the commonly used by many LaTeX editors (LaTeXing, TeXShop, ...) to build your LaTeX files. ![foss][foss]
 
 ## Misc. Tools
 
