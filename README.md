@@ -29,6 +29,7 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system.
 	- [Resources](#resources)
 	- [Tutorials](#tutorials)
 	- [Books](#books)
+	- [Blogs](#blogs)
 	- [Social media](#social-media)
 - [Meta Awesome-LaTeX](#meta-awesome-latex)
 	- [Legend](#legend)
@@ -180,6 +181,10 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [WikiBooks: LaTeX](https://en.wikibooks.org/wiki/LaTeX) - The LaTeX wikibook. Not really a paper book, but it is equally extensive.
 - [The LaTeX Companion, F. Mittelbach (2004)](http://www.informit.com/store/latex-companion-9780201362992)
 - [LaTeX Graphics Companion, M. Goossens (2007)](http://www.informit.com/store/latex-graphics-companion-9780321508928)
+
+## Blogs
+
+- [TeXblog](http://texblog.net) - Blog about LaTeX and everything related.
 
 ## Social media
 
