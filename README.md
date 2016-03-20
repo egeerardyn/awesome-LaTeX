@@ -108,6 +108,12 @@ Online editors that allow you to edit documents collaboratively.
 - [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors.
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow.
 
+## Build Tools
+
+Compiling LaTeX documents can be tedious, build tools help you to manage the compilation process.
+
+- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/cereda/arara))- Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss][foss]
+
 ## Misc. Tools
 
 - [Pandoc](http://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, ...) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss][foss]
