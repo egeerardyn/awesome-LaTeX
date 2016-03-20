@@ -198,6 +198,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 - [LinkedIn: TeX/LaTeX User Group](https://www.linkedin.com/groups/1600297)
 - [Twitter: @TeXtip](https://twitter.com/TeXtip) - Tips related to (La)TeX by [John D. Cook](http://www.johndcook.com/).
+- [TeX.StackExchange](http://tex.stackexchange.com) - StackExchange TeX section.
 
 ---------------------------------------------------------------------------
 
