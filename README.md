@@ -8,30 +8,30 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system. [![A
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Awesome LaTeX](#awesome-latex)
-	- [Contents](#contents)
-	- [Distributions](#distributions)
-	- [Engines](#engines)
-		- [LaTeX formulas on the web](#latex-formulas-on-the-web)
-	- [Editors](#editors)
-		- [LaTeX-focussed](#latex-focussed)
-		- [General purpose text editors](#general-purpose-text-editors)
-		- [Online editors](#online-editors)
-	- [Bibliography tools](#bibliography-tools)
-	- [Misc. Tools](#misc-tools)
-	- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
-	- [Packages](#packages)
-		- [Tables](#tables)
-		- [Graphics](#graphics)
-			- [PSTricks](#pstricks)
-			- [TikZ](#tikz)
-	- [Templates](#templates)
-	- [Symbols](#symbols)
-	- [Resources](#resources)
-	- [Tutorials](#tutorials)
-	- [Books](#books)
-	- [Social media](#social-media)
+    - [Contents](#contents)
+    - [Distributions](#distributions)
+    - [Engines](#engines)
+        - [LaTeX formulas on the web](#latex-formulas-on-the-web)
+    - [Editors](#editors)
+        - [LaTeX-focussed](#latex-focussed)
+        - [General purpose text editors](#general-purpose-text-editors)
+        - [Online editors](#online-editors)
+    - [Bibliography tools](#bibliography-tools)
+    - [Misc. Tools](#misc-tools)
+    - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
+    - [Packages](#packages)
+        - [Tables](#tables)
+        - [Graphics](#graphics)
+            - [PSTricks](#pstricks)
+            - [TikZ](#tikz)
+    - [Templates](#templates)
+    - [Symbols](#symbols)
+    - [Resources](#resources)
+    - [Tutorials](#tutorials)
+    - [Books](#books)
+    - [Social media](#social-media)
 - [Meta Awesome-LaTeX](#meta-awesome-latex)
-	- [Legend](#legend)
+    - [Legend](#legend)
 
 <!-- /TOC -->
 
@@ -98,6 +98,7 @@ Online editors that allow you to edit documents collaboratively.
 - [ShareLaTeX](https://www.sharelatex.com) - Has pretty great LaTeX documentation and simple version control.
 - [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and git support.
 - [Papeeria](https://papeeria.com) - Online editor with built-in git support.
+- [JaxEdit](http://jaxedit.com/page/jaxedit.html) - Online LaTeX editor with Live Preview and nice presentation mode.
 
 ## Bibliography tools
 
@@ -192,7 +193,6 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 This list is licensed as [CC-BY-SA 4.0](LICENSE.md).
 
 If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md) guidlines.
-
 
 ## Legend
 
