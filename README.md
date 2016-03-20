@@ -1,7 +1,7 @@
 # Awesome LaTeX
 
 This is a curated list of awesome stuff for the (La)TeX typesetting system.
-[![Awesome][awesome]](https://github.com/sindresorhus/awesome) [![Issue Count](https://codeclimate.com/github/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/github/egeerardyn/awesome-LaTeX)
+[![Awesome][awesome]](https://github.com/sindresorhus/awesome) [![Issue Count](https://codeclimate.com/github/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/github/egeerardyn/awesome-LaTeX) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=flat)](LICENSE.md)
 
 ## Contents
 
@@ -190,9 +190,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 # Meta Awesome-LaTeX
 
-This list is licensed as [CC-BY-SA 4.0](LICENSE.md).
-
-If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md) guidlines.
+If you want to contribute, please do read our [CONTRIBUTING](CONTRIBUTING.md) guidelines.
 
 ## Legend
 
