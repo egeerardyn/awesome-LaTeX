@@ -155,6 +155,7 @@ TikZ is an awesome package with many plugins that allow you to create figures fr
 Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
+- [LaTeX en SI](http://sciences-indus-cpge.papanicola.info/-LaTeX-en-SI-) - Useful website with some custom packages to draw special plots (Bode, Nyquist, electrical schematics, block schematics, ...) using TikZ. Note that everything is in French.
 
 ## Templates
 
