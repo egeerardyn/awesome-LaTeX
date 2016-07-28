@@ -117,6 +117,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 
 ## Misc. Tools
 
+- [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [Pandoc](http://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, ...) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss][foss]
 - [Codecogs Eqn Editor](https://www.codecogs.com/latex/eqneditor.php) - Online LaTeX equation editor that allows you to produce figures containing an equation.
 - [LaTeXiT](http://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, ...) into your non-LaTeX documents on the Mac. ![Mac][mac]
