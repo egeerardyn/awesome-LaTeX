@@ -72,6 +72,7 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX
 - [TeXWorks](https://www.tug.org/texworks/) - No-nonsense editor for LaTeX code, modeled after TeXShop, but this one is cross-platform. ![foss][foss]
 - [BakomaTex](http://www.bakoma-tex.com) - Commercial LaTeX editor that allows to edit your document both using its source code and WYSIWYG.
 - [Inlage](http://www.inlage.com/home) - Commercial LaTeX editor with handwritten formula recognition, Excel importing and more nifty features. ![Windows][windows]
+- [Texpad](https://www.texpadapp.com) - Commercial LaTeX editor for OS X and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices...) that never get in the way of writing. ![Mac][mac]
 
 ### General purpose text editors
 
@@ -159,6 +160,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [tkz](http://altermundus.com/pages/tkz/index.html) - A collection of TikZ-based packages to make plots and graphs.
 - [pgfplots](http://pgfplots.sourceforge.net) - A truely awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
 - [A very minimal introduction to TikZ (PDF)](http://bit.ly/gNfVn9) - A short introductory document to the world of TikZ, written by Jacques Crémer.
+- [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - A collection of publication-ready PGF/TikZ figures by Petar Veličković.
 
 ## Templates
 
