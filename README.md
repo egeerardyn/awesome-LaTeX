@@ -181,6 +181,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TUG: TeX showcase](http://www.tug.org/texshowcase/) - Website from the TUG that shows some examples of what LaTeX can do.
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
+- [Visual FAQ](http://mirrors.ctan.org/info/visualFAQ/visualFAQ.pdf) - Typesetting issues and a link to appropriate TeX FAQ answers.
 - [12 Great resources for getting started with LaTeX](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex/) - Nice overview of useful resources for beginners.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
 - [HowtoTeX LaTeX](http://latex.howtotex.com) - Start page with useful resources for LaTeX users.
