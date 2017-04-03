@@ -57,6 +57,9 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system.
 ## Editors
 
 Because editing LaTeX code with notepad is not awesome.
+There are many editors out there, below are the most awesome editors.
+A complete list of latex editors is collected at [tex.stackexchange.com](http://tex.stackexchange.com/) as [big list of LaTeX Editors/IDEs](http://tex.stackexchange.com/q/339/9075).
+
 
 ### LaTeX-focussed
 
