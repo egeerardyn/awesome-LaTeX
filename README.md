@@ -187,6 +187,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [HowtoTeX LaTeX](http://latex.howtotex.com) - Start page with useful resources for LaTeX users.
 - [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
 - [LaTeX community](http://latex-community.org/index.php) - Forum and blog about LaTeX.
+- German: [Neue TeX FAQ](http://texfragen.de/) - A modern and updated LaTeX FAQ in German.
 
 ## Tutorials
 
