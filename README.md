@@ -95,6 +95,9 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 	- [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss][foss]
 	- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss][foss]
 
+- [IntelliJ](https://www.jetbrains.com/idea/)
+	- [TeXiFy-IDEA](https://github.com/Ruben-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss][foss]
+
 ### Online editors
 
 Online editors that allow you to edit documents collaboratively.
