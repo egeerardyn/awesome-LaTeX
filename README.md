@@ -173,6 +173,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 - [LaTeX templates](http://www.latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
 - [HowtoTeX: templates](http://www.howtotex.com/category/templates/) - Different templates for LaTeX under a CC-NC-SA license.
+- [Ultimate Beamer Theme List](https://github.com/martinbjeldbak/ultimate-beamer-theme-list) - Links to various beamer themes along with PDF previews.
 
 ## Symbols
 
