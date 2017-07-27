@@ -62,6 +62,8 @@ There are many editors out there, below are the most awesome editors.
 A complete list of latex editors is collected at [tex.stackexchange.com](http://tex.stackexchange.com/) as [big list of LaTeX Editors/IDEs](http://tex.stackexchange.com/q/339/9075).
 
 
+- [List of popular LaTeX editors](https://tex.stackexchange.com/questions/339/latex-editors-ides) - Community-maintained list of popular LaTeX editors including a screenshot and a short description.
+
 ### LaTeX-focussed
 
 Some of the most awesome editor for LaTeX do just that: edit LaTeX
