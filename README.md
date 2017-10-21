@@ -50,6 +50,7 @@ This is a curated list of awesome stuff for the (La)TeX typesetting system.
 
 ### LaTeX formulas on the web
 
+- [Auto-LaTeX Equations with Google Docs](https://chrome.google.com/webstore/detail/auto-latex-equations/iaainhiejkciadlhlodaajgbffkebdog?utm_source=github/egeerardyn/awesome-LaTeX) - Render high-quality math equations directly in Google Docs.
 - [MathJaX](https://www.mathjax.org) - JavaScript engine to render mathematical formulas on the web. The outcome looks really slick. ![foss][foss]
 - [mimeTeX](http://www.forkosh.com/mimetex.html) - mimeTeX is a rather old tool to render LaTeX formulas to PNG figures for your web site, without actually needing a LaTeX installation on your server. ![foss][foss]
 - [mathTeX](http://www.forkosh.com/mathtex.html) - mathTeX is the successor of mimeTeX: it produces nicer-looking images but it requires LaTeX to be installed on your server. ![foss][foss]
@@ -106,6 +107,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 Online editors that allow you to edit documents collaboratively.
 
 - [List of popular online LaTeX editors](https://tex.stackexchange.com/questions/3/compiling-documents-online/1654#1654) - Community-maintained list of popular online LaTeX editor including equation editors.
+- [Auto-LaTeX Equations with Google Docs](https://chrome.google.com/webstore/detail/auto-latex-equations/iaainhiejkciadlhlodaajgbffkebdog?utm_source=github/egeerardyn/awesome-LaTeX) - Equation editor for Google Docs.
 - [Authorea](https://www.authorea.com) - Online editor with built-in git support and bibliography tools.
 - [ShareLaTeX](https://www.sharelatex.com) - Has pretty great LaTeX documentation and simple version control.
 - [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and git support.
