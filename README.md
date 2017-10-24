@@ -178,7 +178,6 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 ## Templates
 
 - [LaTeX templates](http://www.latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
-- [HowtoTeX: templates](http://www.howtotex.com/category/templates/) - Different templates for LaTeX under a CC-NC-SA license.
 - [Ultimate Beamer Theme List](https://github.com/martinbjeldbak/ultimate-beamer-theme-list) - Links to various beamer themes along with PDF previews.
 
 ## Symbols
@@ -195,9 +194,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
 - [Visual FAQ](http://mirrors.ctan.org/info/visualFAQ/visualFAQ.pdf) - Typesetting issues and a link to appropriate TeX FAQ answers.
-- [12 Great resources for getting started with LaTeX](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex/) - Nice overview of useful resources for beginners.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
-- [HowtoTeX LaTeX](http://latex.howtotex.com) - Start page with useful resources for LaTeX users.
 - [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
 - [LaTeX community](http://latex-community.org/index.php) - Forum and blog about LaTeX.
 - German: [Neue TeX FAQ](http://texfragen.de/) - A modern and updated LaTeX FAQ in German.
