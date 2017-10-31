@@ -192,6 +192,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TUG](https://www.tug.org) - The TeX User Group is a way to get in touch with other (La)TeX users.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
+- [Showcase of beautiful typography done in TeX & friends](https://tex.stackexchange.com/q/1319/9075) - Community-maintained and ranked show cases what is possible with LaTeX.
 - [TUG: TeX showcase](http://www.tug.org/texshowcase/) - Website from the TUG that shows some examples of what LaTeX can do.
 - [TeXample](http://www.texample.net) - Blog about LaTex, with a big collection of TikZ figures.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
