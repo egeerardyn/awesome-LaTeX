@@ -119,7 +119,7 @@ Online editors that allow you to edit documents collaboratively.
 
 - [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![foss][foss]
 - [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![Mac][mac].
-- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors.
+- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. [![foss][foss]](https://github.com/zotero/)
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow.
 
 ## Build Tools
