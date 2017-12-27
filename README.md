@@ -142,6 +142,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [KLaTeXFormula](https://klatexformula.sourceforge.io) - Cross-platform alternative for LaTeXit. ![foss][foss]
 - [EqualX](http://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![Windows][windows] ![Linux][linux] ![foss][foss]
 - [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
+- [LaTeXEqEdit](http://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![Windows][windows] ![foss][foss]
 
 ## LaTeX-compatible GUI tools
 
