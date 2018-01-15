@@ -205,6 +205,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
 - [LaTeX community](http://latex.org/index.php) - Forum and blog about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - A modern and updated LaTeX FAQ in German.
+- [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
 
 ## Tutorials
 
