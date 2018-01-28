@@ -64,7 +64,7 @@ A complete list of LaTeX editors is collected at [tex.stackexchange.com](https:/
 
 - [List of popular LaTeX editors](https://tex.stackexchange.com/questions/339/latex-editors-ides) - Community-maintained list of popular LaTeX editors including a screenshot and a short description.
 
-### LaTeX-focussed
+### LaTeX-focused
 
 Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 
@@ -182,6 +182,14 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - A short introductory document to the world of TikZ, written by Jacques Crémer.
 - [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - A collection of publication-ready PGF/TikZ figures by Petar Veličković.
 
+### Source Code
+
+- [minted](https://www.ctan.org/pkg/minted) - The minted package uses [pygments](http://pygments.org/) to generate the listings. In that way, LaTeX is able to format more than 300 languages and other text formats.
+
+### Typography
+
+- [microtype](https://ctan.org/pkg/microtype) - This enables margin kerning and font expansion. This just makes a document look much better.
+
 ## Templates
 
 - [LaTeX templates](https://www.latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
@@ -197,7 +205,6 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TUG](https://www.tug.org) - The TeX User Group is a way to get in touch with other (La)TeX users.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
-- [Showcase of beautiful typography done in TeX & friends](https://tex.stackexchange.com/q/1319/9075) - Community-maintained and ranked show cases what is possible with LaTeX.
 - [TUG: TeX showcase](https://www.tug.org/texshowcase/) - Website from the TUG that shows some examples of what LaTeX can do.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
 - [Visual FAQ](http://mirrors.ctan.org/info/visualFAQ/visualFAQ.pdf) - Typesetting issues and a link to appropriate TeX FAQ answers.
@@ -206,6 +213,12 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [LaTeX community](http://latex.org/index.php) - Forum and blog about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - A modern and updated LaTeX FAQ in German.
 - [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
+
+## Showcases
+
+- [Showcase of beautiful typography done in TeX & friends](https://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends) - A collection of showcases demonstrating the power of LaTeX.
+- [Showcase of beautiful invitations in TeX](https://tex.stackexchange.com/q/281415/9075) - A collection of invitations typeset using LaTeX.
+- [Showcase of "programming your document" paradigm](https://tex.stackexchange.com/q/219774/9075) - A collection of LaTeX documents which contains code to produce the text.
 
 ## Tutorials
 
