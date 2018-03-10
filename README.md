@@ -159,6 +159,9 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 ## Packages
 
 - [CTAN](https://www.ctan.org) - The Comprehensive TeX Archive Network is the place to look for useful packages and documentation.
+
+### References
+
 - [Cross-reference packages explained](https://tex.stackexchange.com/a/36312/9075) - Elaboration on cross-reference packages (cleveref, varioref, theoremref, nameref, ...): Which to use, which conflict?
 
 ### Tables
