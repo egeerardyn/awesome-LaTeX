@@ -119,14 +119,14 @@ Online editors that allow you to edit documents collaboratively.
 
 ## Bibliography tools
 
-- [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![foss][foss]
+- [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![Mac][mac] ![Windows][windows] ![Linux][linux] ![foss][foss]
 - [Papis](https://github.com/alejandrogallo/papis) - Extremely customizable,
   powerful and simple cross-platform (Python) library manager. It has a very
   complete Command-Line-Interface, several GUIs and scripting capability.
-  ![foss][foss] ![Linux][linux] ![Mac][mac]
+  ![Linux][linux] ![Mac][mac] ![foss][foss]
 - [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![Mac][mac].
-- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. [![foss][foss]](https://github.com/zotero/)
-- [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow.
+- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![Mac][mac] ![Windows][windows] ![Linux][linux] [![foss][foss]](https://github.com/zotero/)
+- [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![Mac][mac] ![Windows][windows] ![Linux][linux]
 
 ## Build Tools
 
@@ -159,6 +159,10 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 ## Packages
 
 - [CTAN](https://www.ctan.org) - The Comprehensive TeX Archive Network is the place to look for useful packages and documentation.
+
+### References
+
+- [Cross-reference packages explained](https://tex.stackexchange.com/a/36312/9075) - Elaboration on cross-reference packages (cleveref, varioref, theoremref, nameref, ...): Which to use, which conflict?
 
 ### Tables
 
