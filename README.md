@@ -1,7 +1,8 @@
-# Awesome LaTeX
+# Awesome LaTeX [![Awesome][awesome]](https://github.com/sindresorhus/awesome) [![Issue Count](https://codeclimate.com/github/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/github/egeerardyn/awesome-LaTeX) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=flat)](LICENSE.md)
 
-This is a curated list of awesome stuff for the (La)TeX typesetting system.
-[![Awesome][awesome]](https://github.com/sindresorhus/awesome) [![Issue Count](https://codeclimate.com/github/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/github/egeerardyn/awesome-LaTeX) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=flat)](LICENSE.md)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/220px-LaTeX_logo.svg.png" align="right" width="100">](https://www.latex-project.org/)
+
+> This is a curated list of awesome stuff for the [(La)TeX typesetting system](https://www.latex-project.org/).
 
 ## Contents
 
@@ -71,11 +72,11 @@ A complete list of LaTeX editors is collected at [tex.stackexchange.com](https:/
 
 Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 
-- [Kile](https://kile.sourceforge.io) - A great LaTeX editor originally from the Linux/KDE community. It runs fine on Windows and OS X as well. ![foss][foss]
+- [Kile](https://kile.sourceforge.io) - Great LaTeX editor originally from the Linux/KDE community. It runs fine on Windows and OS X as well. ![foss][foss]
 - [TeXMaker](http://www.xm1math.net/texmaker/) - Pretty good alternative to Kile.
 - [TeXStudio](https://www.texstudio.org) - Cross-platform LaTeX editor that stems from TeXMaker.
 - [WinEdt](http://www.winedt.com) - The LaTeX editor many people swear by. Only for ![Windows][windows].
-- [TeXnicCenter](http://www.texniccenter.org) - A quite old but free and decent editor for LaTeX. ![Windows][windows]
+- [TeXnicCenter](http://www.texniccenter.org) - Quite old but free and decent editor for LaTeX. ![Windows][windows]
 - [LyX](https://www.lyx.org) - Cross-platform WYSIWYM editor that uses LaTeX behind the scenes to render documents. ![foss][foss]
 - [TeXShop](http://pages.uoregon.edu/koch/texshop/) - No-nonsense editor for LaTeX documents which is included in MacTeX. ![Mac][mac]
 - [TeXWorks](https://www.tug.org/texworks/) - No-nonsense editor for LaTeX code, modeled after TeXShop, but this one is cross-platform. ![foss][foss]
@@ -88,7 +89,7 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!
 
 - [Atom](https://atom.io) [![Atom][awesome]](https://github.com/mehcode/awesome-atom) ![foss][foss]
-	- [LaTeXTools](https://atom.io/packages/latextools) - An Atom port of the Sublime Text package of the same name. ![foss][foss]
+	- [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss][foss]
 
 - [Sublime Text](https://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
 	- [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
@@ -101,7 +102,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 - [Vim](http://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss][foss]
 	- [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss][foss]
 	- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss][foss]
-	- [vimtex](https://github.com/lervag/vimtex) - A modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss][foss]
+	- [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss][foss]
 
 - [IntelliJ](https://www.jetbrains.com/idea/)
 	- [TeXiFy-IDEA](https://github.com/Ruben-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss][foss]
@@ -184,11 +185,10 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 - [TeXample](http://www.texample.net) - Blog about LaTeX, with a big collection of TikZ figures.
 - [LaTeX en SI](https://sciences-indus-cpge.papanicola.info/-LaTeX-en-SI-) - Useful website with some custom packages to draw special plots (Bode, Nyquist, electrical schematics, block schematics, ...) using TikZ. Note that everything is in French.
-- [tkz](http://altermundus.com/pages/tkz/index.html) - A collection of TikZ-based packages to make plots and graphs.
-- [pgfplots](http://pgfplots.sourceforge.net) - A truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
-- [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - A short introductory document to the world of TikZ, written by Jacques Crémer.
-- [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - A collection of publication-ready PGF/TikZ figures by Petar Veličković.
-- [awesome-TikZ](https://github.com/maphy-psd/awesome-TikZ) - Awesome TikZ packages and resources.
+- [tkz](http://altermundus.com/pages/tkz/index.html) - Collection of TikZ-based packages to make plots and graphs.
+- [pgfplots](http://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
+- [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - Short introductory document to the world of TikZ, written by Jacques Crémer.
+- [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
 
 ### Source Code
 
@@ -205,7 +205,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ## Symbols
 
-- [Comprehensive LaTeX symbol list](https://www.ctan.org/tex-archive/info/symbols/comprehensive/) - A very extensive list of symbols for LaTeX. Available in [A4](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf) and [letter](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-letter.pdf) sizes.
+- [Comprehensive LaTeX symbol list](https://www.ctan.org/tex-archive/info/symbols/comprehensive/) - Very extensive list of symbols for LaTeX. Available in [A4](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf) and [letter](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-letter.pdf) sizes.
 - [Detexify](http://detexify.kirelabs.org/classify.html) - You draw the symbol and this site/app will tell you the LaTeX command.
 
 ## Resources
@@ -218,21 +218,21 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
 - [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
 - [LaTeX community](http://latex.org/index.php) - Forum and blog about LaTeX.
-- German: [Neue TeX FAQ](https://texfragen.de) - A modern and updated LaTeX FAQ in German.
+- German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
 - [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
 
 ## Showcases
 
-- [Showcase of beautiful typography done in TeX & friends](https://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends) - A set of examples demonstrating the power of LaTeX.
-- [Showcase of beautiful invitations in TeX](https://tex.stackexchange.com/q/281415/9075) - A showcase of invitations typeset using LaTeX.
-- [Showcase of "programming your document" paradigm](https://tex.stackexchange.com/q/219774/9075) - A collection of LaTeX documents demonstrating how LaTeX can be used like a programming language.
+- [Showcase of beautiful typography done in TeX & friends](https://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends) - Set of examples demonstrating the power of LaTeX.
+- [Showcase of beautiful invitations in TeX](https://tex.stackexchange.com/q/281415/9075) - Showcase of invitations typeset using LaTeX.
+- [Showcase of "programming your document" paradigm](https://tex.stackexchange.com/q/219774/9075) - Collection of LaTeX documents demonstrating how LaTeX can be used like a programming language.
 - [TUG: TeX showcase](https://www.tug.org/texshowcase/) - Website from the TUG that shows some examples of what LaTeX can do.
 
 ## Tutorials
 
-- [The (Not So) Short Introduction to LaTeX2e](http://mirrors.ctan.org/info/lshort/english/lshort.pdf) - A very comprehensive introduction to LaTeX.
-- [Begin LaTeX in minutes](https://github.com/LewisVo/Begin-Latex-in-minutes) - A brief intro to LaTeX for beginners that helps you use LaTeX with ease.
-- [Getting to Grips with LaTeX](https://www.andy-roberts.net/writing/latex) - A complete guide going through the majority of things you need to know about LaTeX.
+- [The (Not So) Short Introduction to LaTeX2e](http://mirrors.ctan.org/info/lshort/english/lshort.pdf) - Very comprehensive introduction to LaTeX.
+- [Begin LaTeX in minutes](https://github.com/LewisVo/Begin-Latex-in-minutes) - Brief intro to LaTeX for beginners that helps you use LaTeX with ease.
+- [Getting to Grips with LaTeX](https://www.andy-roberts.net/writing/latex) - Complete guide going through the majority of things you need to know about LaTeX.
 
 ## Books
 
