@@ -194,6 +194,8 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [pgfplots](http://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
 - [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - Short introductory document to the world of TikZ, written by Jacques Crémer.
 - [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
+- [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Convert your MATLAB plots to PGFPlots/TikZ. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
+- [matplotlib2tikz](https://github.com/nschloe/matplotlibtikz) - Convert your matplotlib plots to PGFPlots/TikZ. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
 
 ### Source Code
 
