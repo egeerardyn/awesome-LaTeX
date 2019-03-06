@@ -131,6 +131,7 @@ Online editors that allow you to edit documents collaboratively.
 - [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![Mac][mac].
 - [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![Mac][mac] ![Windows][windows] ![Linux][linux] [![foss][foss]](https://github.com/zotero/)
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![Mac][mac] ![Windows][windows] ![Linux][linux]
+- [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![Mac][mac] ![Windows][windows] ![Linux][linux] ![foss][foss]
 
 ## Build Tools
 
@@ -151,6 +152,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
 - [LaTeXEqEdit](http://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![Windows][windows] ![foss][foss]
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
+- [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
 
 ## LaTeX-compatible GUI tools
 
@@ -192,6 +194,8 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [pgfplots](http://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
 - [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - Short introductory document to the world of TikZ, written by Jacques Crémer.
 - [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
+- [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Convert your MATLAB plots to PGFPlots/TikZ. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
+- [matplotlib2tikz](https://github.com/nschloe/matplotlibtikz) - Convert your matplotlib plots to PGFPlots/TikZ. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
 
 ### Source Code
 
