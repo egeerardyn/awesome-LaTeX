@@ -152,6 +152,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss][foss]
 - [LaTeXEqEdit](http://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![Windows][windows] ![foss][foss]
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
+- [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
 
 ## LaTeX-compatible GUI tools
 
