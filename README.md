@@ -233,6 +233,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
 - [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
 - [TeX World](http://tex.world/) -  Websites supported by the TeX Users Group, DANTE, and GUTenberg.
+- [TeXnique](https://texnique.xyz) - A LaTeX Typesetting Game
 
 ## Showcases
 
