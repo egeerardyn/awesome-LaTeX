@@ -9,6 +9,7 @@
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Contents](#contents)
+- [Learning LaTeX](#learning-latex)
 - [Distributions](#distributions)
 - [Engines](#engines)
 	- [LaTeX formulas on the web](#latex-formulas-on-the-web)
@@ -39,6 +40,12 @@
 - [Legend](#legend)
 
 <!-- /TOC -->
+
+## Learning LaTeX
+
+Guides how to learn LaTeX
+
+- [learnlatex.github.io](https://learnlatex.github.io/) - browser-based LaTeX tutorial
 
 ## Distributions
 
