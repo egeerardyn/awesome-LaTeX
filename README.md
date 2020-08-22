@@ -170,6 +170,8 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss][foss]
 - [GeoGebra](https://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss][foss]
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss][foss]
+- [TikZiT](https://tikzit.github.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![Windows][windows] ![Linux][linux] ![Mac][mac] ![foss][foss]
+
 
 ## Packages
 
