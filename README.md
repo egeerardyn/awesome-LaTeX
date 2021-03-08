@@ -264,6 +264,8 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [Wikibooks: LaTeX](https://en.wikibooks.org/wiki/LaTeX) - The LaTeX wikibook. Not really a paper book, but it is equally extensive.
 - [The LaTeX Companion, F. Mittelbach (2004)](https://www.informit.com/store/latex-companion-9780201362992)
 - [LaTeX Graphics Companion, M. Goossens (2007)](https://www.informit.com/store/latex-graphics-companion-9780321508928)
+- [TeX by Topic (2007)](https://ctan.org/pkg/texbytopic)
+- [TeX for the Impatient (2020)](https://ctan.org/pkg/impatient)
 
 ## Blogs
 
