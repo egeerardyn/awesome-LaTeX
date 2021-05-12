@@ -1,4 +1,4 @@
-# Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) [![Issue Count](https://codeclimate.com/GitHub/egeerardyn/awesome-LaTeX/badges/issue_count.svg)](https://codeclimate.com/GitHub/egeerardyn/awesome-LaTeX) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=flat)](LICENSE.md)
+# Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=flat)](LICENSE.md)
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/220px-LaTeX_logo.svg.png" align="right" width="100">](https://www.latex-project.org/)
 
