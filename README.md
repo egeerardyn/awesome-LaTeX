@@ -162,6 +162,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [LaTeXEqEdit](http://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![windows] ![foss]
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![windows] ![linux] ![mac] ![foss]
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
+- [Purple Pi](https://github.com/nschloe/purple-pi) - Browser extension that lets you use LaTeX in GitHub pages, StackOverflow etc. ![foss]
 
 ## LaTeX-compatible GUI tools
 
