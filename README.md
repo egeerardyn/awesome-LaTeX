@@ -51,7 +51,7 @@ Guides how to learn LaTeX
 
 - [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for macOS, basically TeXLive with some Mac-specific tools added. ![mac]
 - [TeX Live](https://www.tug.org/texlive/) - Most common LaTeX distribution for Unix-like operating systems, including GNU/Linux. Also works on Windows. ![linux] ![windows]
-- [MikTeX](https://miktex.org) - Most common LaTeX distribution for Windows (only). ![windows]
+- [MikTeX](https://miktex.org) - Most common LaTeX distribution for Windows, but also available for Mac, Linux or as Docker image. ![foss]
 
 ## Engines
 
