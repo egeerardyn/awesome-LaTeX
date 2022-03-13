@@ -142,7 +142,7 @@ Online editors that allow you to edit documents collaboratively.
   complete Command-Line-Interface, several GUIs and scripting capability.
   ![linux] ![mac] ![foss]
 - [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![mac].
-- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] [![foss]](https://github.com/zotero/)
+- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] ![foss]
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![mac] ![windows] ![linux]
 - [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac] ![windows] ![linux] ![foss]
 
