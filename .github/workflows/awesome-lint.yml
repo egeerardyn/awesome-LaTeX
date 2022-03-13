@@ -1,0 +1,14 @@
+name: awesome-lint
+on:
+  pull_request:
+    branches: [master]
+  pull:
+    branches: [master]
+jobs:
+  Awesome_Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: npx awesome-lint
