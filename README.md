@@ -241,7 +241,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
-- [Visual FAQ](http://mirrors.ctan.org/info/visualFAQ/visualFAQ.pdf) - Typesetting issues and a link to appropriate TeX FAQ answers.
+- [Visual FAQ](https://ctan.org/pkg/visualfaq) - Typesetting issues and a link to appropriate TeX FAQ answers.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
 - [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
 - [LaTeX community](http://latex.org/index.php) - Forum and blog about LaTeX.
