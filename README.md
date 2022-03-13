@@ -1,6 +1,6 @@
 # Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=flat)](LICENSE.md)
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/220px-LaTeX_logo.svg.png" align="right" width="100">](https://www.latex-project.org/)
+[![LaTeX Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/220px-LaTeX_logo.svg.png)](https://www.latex-project.org/)
 
 > This is a curated list of awesome stuff for the [(La)TeX typesetting system](https://www.latex-project.org/).
 
@@ -8,36 +8,39 @@
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Learning LaTeX](#learning-latex)
-- [Distributions](#distributions)
-- [Engines](#engines)
-	- [LaTeX formulas on the web](#latex-formulas-on-the-web)
-- [Editors](#editors)
-	- [LaTeX-focused](#latex-focused)
-	- [General purpose text editors](#general-purpose-text-editors)
-	- [Online editors](#online-editors)
-- [Bibliography tools](#bibliography-tools)
-- [Build Tools](#build-tools)
-- [Misc. Tools](#misc-tools)
-- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
-- [Packages](#packages)
-	- [References](#references)
-	- [Tables](#tables)
-	- [Graphics](#graphics)
-		- [PSTricks](#pstricks)
-		- [TikZ](#tikz)
-	- [Source Code](#source-code)
-	- [Typography](#typography)
-- [Templates](#templates)
-- [Symbols](#symbols)
-- [Resources](#resources)
-- [Showcases](#showcases)
-- [Tutorials](#tutorials)
-- [Books](#books)
-- [Blogs](#blogs)
-- [Social media](#social-media)
-- [Meta Awesome-LaTeX](#meta-awesome-latex)
-- [Legend](#legend)
+- [Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) ![License: CC BY-SA 4.0](LICENSE.md)](#awesome-latex-awesome-)
+  - [Contents](#contents)
+  - [Learning LaTeX](#learning-latex)
+  - [Distributions](#distributions)
+  - [Engines](#engines)
+    - [LaTeX formulas on the web](#latex-formulas-on-the-web)
+  - [Editors](#editors)
+    - [LaTeX-focused](#latex-focused)
+    - [General purpose text editors](#general-purpose-text-editors)
+    - [Online editors](#online-editors)
+  - [Bibliography tools](#bibliography-tools)
+  - [Build Tools](#build-tools)
+  - [Misc. Tools](#misc-tools)
+  - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
+  - [Packages](#packages)
+    - [References](#references)
+    - [Tables](#tables)
+    - [Graphics](#graphics)
+      - [PSTricks](#pstricks)
+      - [TikZ](#tikz)
+    - [Source Code](#source-code)
+    - [Typography](#typography)
+    - [Presentations, Slides](#presentations-slides)
+  - [Templates](#templates)
+  - [Symbols](#symbols)
+  - [Resources](#resources)
+  - [Showcases](#showcases)
+  - [Tutorials](#tutorials)
+  - [Books](#books)
+  - [Blogs](#blogs)
+  - [Social media](#social-media)
+  - [Meta Awesome-LaTeX](#meta-awesome-latex)
+  - [Legend](#legend)
 
 <!-- /TOC -->
 
@@ -99,26 +102,26 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!
 
 - [Atom](https://atom.io) [![Atom][awesome]](https://github.com/mehcode/awesome-atom) ![foss]
-	- [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
+  - [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
 
 - [Sublime Text](https://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
-	- [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
-	- [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
+  - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
+  - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
 
 - [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss]
-	- [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss]
-	- [RefTeX](https://www.gnu.org/software/auctex/reftex) - Emacs plugin for LaTeX that adds support for labels, references, and citations. ![foss]
+  - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss]
+  - [RefTeX](https://www.gnu.org/software/auctex/reftex) - Emacs plugin for LaTeX that adds support for labels, references, and citations. ![foss]
 
 - [Vim](http://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss]
-	- [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss]
-	- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
-	- [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
+  - [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss]
+  - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
+  - [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
 
 - [IntelliJ](https://www.jetbrains.com/idea/)
-	- [TeXiFy-IDEA](https://github.com/Ruben-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss]
+  - [TeXiFy-IDEA](https://github.com/Ruben-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss]
 
 - [VS Code](https://code.visualstudio.com/) [![VS Code][awesome]](https://github.com/viatsko/awesome-vscode) ![foss]
-	- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
+  - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
 
 ### Online editors
 
@@ -134,12 +137,12 @@ Online editors that allow you to edit documents collaboratively.
 ## Bibliography tools
 
 - [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![mac] ![windows] ![linux] ![foss]
-- [Papis](https://github.com/alejandrogallo/papis) - Extremely customizable,
+- [Papis](https://github.com/papis/papis) - Extremely customizable,
   powerful and simple cross-platform (Python) library manager. It has a very
   complete Command-Line-Interface, several GUIs and scripting capability.
   ![linux] ![mac] ![foss]
 - [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![mac].
-- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] [![foss]](https://github.com/zotero/)
+- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] ![foss]
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![mac] ![windows] ![linux]
 - [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac] ![windows] ![linux] ![foss]
 
@@ -147,9 +150,8 @@ Online editors that allow you to edit documents collaboratively.
 
 Compiling LaTeX documents can be tedious, build tools help you to manage the compilation process.
 
-- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/cereda/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss]
+- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/islandoftex/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss]
 - [latexmk](https://www.ctan.org/pkg/latexmk) - Build tool that is the commonly used by many LaTeX editors (LaTeXing, TeXShop, etc.) to build your LaTeX files. ![foss]
-- [latex-makefile](https://github.com/alejandrogallo/latex-makefile) - `Makefile` based build tool that attempts to be as general and lightweight as possible. ![foss]
 
 ## Misc. Tools
 
@@ -159,7 +161,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [LaTeXiT](https://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, etc.) into your non-LaTeX documents on the Mac. ![mac]
 - [KLaTeXFormula](https://klatexformula.sourceforge.io) - Cross-platform alternative for LaTeXit. ![foss]
 - [EqualX](http://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![windows] ![linux] ![foss]
-- [ChkTeX](http://baruch.ev-en.org/proj/chktex/) - Linter / code checker for LaTeX documents. ![foss]
+- [ChkTeX](https://www.nongnu.org/chktex/) - Linter / code checker for LaTeX documents. ![foss]
 - [LaTeXEqEdit](http://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![windows] ![foss]
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![windows] ![linux] ![mac] ![foss]
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
@@ -173,7 +175,6 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [GeoGebra](https://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss]
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss]
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows] ![linux] ![mac] ![foss]
-
 
 ## Packages
 
@@ -239,10 +240,9 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
-- [Visual FAQ](http://mirrors.ctan.org/info/visualFAQ/visualFAQ.pdf) - Typesetting issues and a link to appropriate TeX FAQ answers.
+- [Visual FAQ](https://ctan.org/pkg/visualfaq) - Typesetting issues and a link to appropriate TeX FAQ answers.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
-- [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
-- [LaTeX community](http://latex.org/index.php) - Forum and blog about LaTeX.
+- [LaTeX community](http://latex.org/forum) - Forum about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
 - [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
 - [TeX World](http://tex.world/) -  Websites supported by the TeX Users Group, DANTE, and GUTenberg.
