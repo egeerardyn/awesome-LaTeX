@@ -14,10 +14,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6.x
     - name: Checks
       run: |
         gem install awesome_bot
-        awesome_bot README.md --allow-ssl -a 302,429
+        awesome_bot README.md --allow-ssl -a 302,429 -w https://www.latex-project.org/,https://github.com/sindresorhus/awesome
