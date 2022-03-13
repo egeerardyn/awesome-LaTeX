@@ -20,4 +20,4 @@ jobs:
     - name: Checks
       run: |
         gem install awesome_bot
-        awesome_bot README.md --allow-ssl -a 302,429 -w https://www.latex-project.org/,https://github.com/sindresorhus/awesome
+        awesome_bot README.md --allow-ssl -a 302,429,301 -w https://www.latex-project.org/,https://github.com/sindresorhus/awesome
