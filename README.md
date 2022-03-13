@@ -19,6 +19,7 @@
     - [Online editors](#online-editors)
   - [Bibliography tools](#bibliography-tools)
   - [Build Tools](#build-tools)
+    - [GitHub Actions](#github-actions)
   - [Misc. Tools](#misc-tools)
   - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
   - [Packages](#packages)
@@ -52,7 +53,7 @@ Guides how to learn LaTeX
 
 - [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for macOS, basically TeXLive with some Mac-specific tools added. ![mac]
 - [TeX Live](https://www.tug.org/texlive/) - Most common LaTeX distribution for Unix-like operating systems, including GNU/Linux. Also works on Windows. ![linux] ![windows]
-- [MikTeX](https://miktex.org) - Most common LaTeX distribution for Windows, but also available for Mac, Linux or as Docker image. ![foss]
+- [MikTeX](https://miktex.org) - Most common LaTeX distribution for Windows, but also available for Mac, Linux or as Docker image.  ![linux] ![windows] ![mac] ![foss]
 
 ## Engines
 
@@ -103,7 +104,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
   - [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
 
 - [Sublime Text](https://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
-  - [LaTeXing](https://www.latexing.com) - Commercial plug-in to edit LaTeX.
+  - [LaTeXing](https://github.com/LaTeXing/LaTeXing) - Free plug-in to edit LaTeX. ![foss]
   - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
 
 - [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss]
@@ -150,6 +151,10 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 
 - [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/islandoftex/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss]
 - [latexmk](https://www.ctan.org/pkg/latexmk) - Build tool that is the commonly used by many LaTeX editors (LaTeXing, TeXShop, etc.) to build your LaTeX files. ![foss]
+
+### GitHub Actions
+
+- [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) GitHub Action to compile LaTeX documents
 
 ## Misc. Tools
 
