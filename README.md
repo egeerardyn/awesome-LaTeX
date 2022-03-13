@@ -10,7 +10,6 @@
 
 - [Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) ![License: CC BY-SA 4.0](LICENSE.md)](#awesome-latex-awesome-)
   - [Contents](#contents)
-  - [Learning LaTeX](#learning-latex)
   - [Distributions](#distributions)
   - [Engines](#engines)
     - [LaTeX formulas on the web](#latex-formulas-on-the-web)
@@ -48,7 +47,6 @@
 
 Guides how to learn LaTeX
 
-- [learnlatex.GitHub.io](https://learnlatex.GitHub.io/) - Browser-based LaTeX tutorial.
 
 ## Distributions
 
@@ -172,7 +170,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [TikzEdt](https://www.tikzedt.org) (also: [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss]
 - [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![mac] ![linux] ![foss]
 - [IPE](https://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss]
-- [GeoGebra](https://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss]
+- [GeoGebra](https://www.geogebra.org/) - Cross-platform geometry tool with output to TikZ. ![foss]
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss]
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows] ![linux] ![mac] ![foss]
 
@@ -257,6 +255,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ## Tutorials
 
+- [LearnLaTeX.org](https://www.learnlatex.org/) - Browser-based LaTeX tutorial.
 - [The (Not So) Short Introduction to LaTeX2e](https://mirrors.ctan.org/info/lshort/english/lshort.pdf) - Very comprehensive introduction to LaTeX.
 - [Begin LaTeX in minutes](https://github.com/LewisVo/Begin-Latex-in-minutes) - Brief intro to LaTeX for beginners that helps you use LaTeX with ease.
 - [Getting to Grips with LaTeX](https://www.andy-roberts.net/writing/latex) - Complete guide going through the majority of things you need to know about LaTeX.
