@@ -59,8 +59,8 @@ Guides how to learn LaTeX
 ## Engines
 
 - [pdfTeX](https://www.tug.org/applications/pdftex/) - TeX compiler that produces PDF files immediately instead of DVI files (nowadays, this is the standard compiler for many users). ![foss]
-- [XeTeX](http://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the  fonts of your operating system instead of only TeX fonts). ![foss]
-- [LuaTeX](http://www.luatex.org) - (La)TeX compiler that supports Lua code for scripting and has improved unicode and font support than standard TeX/pdfTeX. ![foss]
+- [XeTeX](https://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the  fonts of your operating system instead of only TeX fonts). ![foss]
+- [LuaTeX](https://www.luatex.org) - (La)TeX compiler that supports Lua code for scripting and has improved unicode and font support than standard TeX/pdfTeX. ![foss]
 - [tectonic](https://tectonic-typesetting.GitHub.io/en-US/) - Modern, self contained (La)TeX compiler powered by XeTeX and TeXLive. ![foss]
 
 ### LaTeX formulas on the web
@@ -86,15 +86,15 @@ A complete list of LaTeX editors is collected at [tex.stackexchange.com](https:/
 Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 
 - [Kile](https://kile.sourceforge.io) - Great LaTeX editor originally from the Linux/KDE community. It runs fine on Windows and macOS as well. ![foss]
-- [TeXMaker](http://www.xm1math.net/texmaker/) - Pretty good alternative to Kile.
+- [TeXMaker](https://www.xm1math.net/texmaker/) - Pretty good alternative to Kile.
 - [TeXStudio](https://www.texstudio.org) - Cross-platform LaTeX editor that stems from TeXMaker.
-- [WinEdt](http://www.winedt.com) - The LaTeX editor many people swear by. Only for ![windows].
-- [TeXnicCenter](http://www.texniccenter.org) - Quite old but free and decent editor for LaTeX. ![windows]
+- [WinEdt](https://www.winedt.com) - The LaTeX editor many people swear by. Only for ![windows].
+- [TeXnicCenter](https://www.texniccenter.org) - Quite old but free and decent editor for LaTeX. ![windows]
 - [LyX](https://www.lyx.org) - Cross-platform WYSIWYM editor that uses LaTeX behind the scenes to render documents. ![foss]
-- [TeXShop](http://pages.uoregon.edu/koch/texshop/) - No-nonsense editor for LaTeX documents which is included in MacTeX. ![mac]
+- [TeXShop](https://pages.uoregon.edu/koch/texshop/) - No-nonsense editor for LaTeX documents which is included in MacTeX. ![mac]
 - [TeXWorks](https://www.tug.org/texworks/) - No-nonsense editor for LaTeX code, modeled after TeXShop, but this one is cross-platform. ![foss]
-- [BakomaTex](http://www.bakoma-tex.com) - Commercial LaTeX editor that allows to edit your document both using its source code and WYSIWYG.
-- [Inlage](http://www.inlage.com/home) - Commercial LaTeX editor with handwritten formula recognition, Excel importing and more nifty features. ![windows]
+- [BakomaTex](https://www.bakoma-tex.com) - Commercial LaTeX editor that allows to edit your document both using its source code and WYSIWYG.
+- [Inlage](https://www.inlage.com/home) - Commercial LaTeX editor with handwritten formula recognition, Excel importing and more nifty features. ![windows]
 - [Texpad](https://www.texpadapp.com) - Commercial LaTeX editor for macOS and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices, etc.) that never get in the way of writing. ![mac]
 
 ### General purpose text editors
@@ -105,15 +105,15 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
   - [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
 
 - [Sublime Text](https://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
-  - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
+  - [LaTeXing](https://www.latexing.com) - Commercial plug-in to edit LaTeX.
   - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
 
 - [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss]
   - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss]
   - [RefTeX](https://www.gnu.org/software/auctex/reftex) - Emacs plugin for LaTeX that adds support for labels, references, and citations. ![foss]
 
-- [Vim](http://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss]
-  - [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss]
+- [Vim](https://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss]
+  - [Vim-LaTeX](https://vim-latex.sourceforge.net) ![foss]
   - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
   - [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
 
@@ -141,7 +141,7 @@ Online editors that allow you to edit documents collaboratively.
   powerful and simple cross-platform (Python) library manager. It has a very
   complete Command-Line-Interface, several GUIs and scripting capability.
   ![linux] ![mac] ![foss]
-- [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![mac].
+- [Bibdesk](https://bibdesk.sourceforge.net) - Great bibliography editor for ![mac].
 - [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] ![foss]
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![mac] ![windows] ![linux]
 - [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac] ![windows] ![linux] ![foss]
@@ -160,18 +160,18 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [Codecogs Eqn Editor](https://www.codecogs.com/latex/eqneditor.php) - Online LaTeX equation editor that allows you to produce figures containing an equation.
 - [LaTeXiT](https://www.chachatelier.fr/latexit/) - LaTeXit is an equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, etc.) into your non-LaTeX documents on the Mac. ![mac]
 - [KLaTeXFormula](https://klatexformula.sourceforge.io) - Cross-platform alternative for LaTeXit. ![foss]
-- [EqualX](http://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![windows] ![linux] ![foss]
+- [EqualX](https://equalx.sourceforge.net) - Graphical LaTeX formula editor. ![windows] ![linux] ![foss]
 - [ChkTeX](https://www.nongnu.org/chktex/) - Linter / code checker for LaTeX documents. ![foss]
-- [LaTeXEqEdit](http://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![windows] ![foss]
+- [LaTeXEqEdit](https://latexeqedit.sourceforge.net/index.php) - LaTeX formula editor for Windows. ![windows] ![foss]
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![windows] ![linux] ![mac] ![foss]
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows] ![linux] ![mac] ![foss]
 
 ## LaTeX-compatible GUI tools
 
-- [TikzEdt](http://www.tikzedt.org) (also: [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss]
+- [TikzEdt](https://www.tikzedt.org) (also: [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss]
 - [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![mac] ![linux] ![foss]
-- [IPE](http://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss]
+- [IPE](https://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss]
 - [GeoGebra](https://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss]
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss]
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows] ![linux] ![mac] ![foss]
@@ -187,7 +187,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 ### Tables
 
 - [Excel2LaTeX](https://www.ctan.org/pkg/excel2latex?lang=en) - Excel (2010 and older) macros to produce LaTeX `tabular` code. ![windows] ![mac]
-- [csv2latex](http://freshmeat.sourceforge.net/projects/csv2latex) - Converts CSV files from your favorite programs to LaTeX `tabular`s. ![linux] ![mac]
+- [csv2latex](https://freshmeat.sourceforge.net/projects/csv2latex) - Converts CSV files from your favorite programs to LaTeX `tabular`s. ![linux] ![mac]
 - [Tables Generator](https://www.tablesgenerator.com) - This website provides a graphical interface to input your table and produces properly-formatted code for LaTeX, Markdown, HTML, etc.
 - [pgfplotstable](https://www.ctan.org/pkg/pgfplotstable?lang=en) - This package displays numerical tables rounded to desired precision in various display formats. It can even read CSV files to include directly in your LaTeX document.
 
@@ -202,10 +202,10 @@ PSTricks is a great library to draw figures for inclusion in PostScript/DVI file
 TikZ is an awesome package with many plugins that allow you to create figures from within your LaTeX documents.
 Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
-- [TeXample](http://www.texample.net) - Blog about LaTeX, with a big collection of TikZ figures.
+- [TeXample](https://www.texample.net) - Blog about LaTeX, with a big collection of TikZ figures.
 - [LaTeX en SI](https://sciences-indus-cpge.papanicola.info/-LaTeX-en-SI-) - Useful website with some custom packages to draw special plots (Bode, Nyquist, electrical schematics, block schematics, etc.) using TikZ. Note that everything is in French.
-- [tkz](http://altermundus.com/pages/tkz/index.html) - Collection of TikZ-based packages to make plots and graphs.
-- [pgfplots](http://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
+- [tkz](https://altermundus.com/pages/tkz/index.html) - Collection of TikZ-based packages to make plots and graphs.
+- [pgfplots](https://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
 - [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - Short introductory document to the world of TikZ, written by Jacques Crémer.
 - [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
 - [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Convert your MATLAB plots to PGFPlots/TikZ. ![windows] ![linux] ![mac] ![foss]
@@ -214,7 +214,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ### Source Code
 
-- [minted](https://www.ctan.org/pkg/minted) - The minted package uses [pygments](http://pygments.org/) to generate the listings. In this way, LaTeX is able to format more than 300 programming and markup languages and other text formats.
+- [minted](https://www.ctan.org/pkg/minted) - The minted package uses [pygments](https://pygments.org/) to generate the listings. In this way, LaTeX is able to format more than 300 programming and markup languages and other text formats.
 
 ### Typography
 
@@ -231,21 +231,21 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ## Symbols
 
-- [Comprehensive LaTeX symbol list](https://www.ctan.org/tex-archive/info/symbols/comprehensive/) - Very extensive list of symbols for LaTeX. Available in [A4](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf) and [letter](http://mirrors.ctan.org/info/symbols/comprehensive/symbols-letter.pdf) sizes.
-- [Detexify](http://detexify.kirelabs.org/classify.html) - You draw the symbol and this site/app will tell you the LaTeX command.
+- [Comprehensive LaTeX symbol list](https://www.ctan.org/tex-archive/info/symbols/comprehensive/) - Very extensive list of symbols for LaTeX. Available in [A4](https://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf) and [letter](https://mirrors.ctan.org/info/symbols/comprehensive/symbols-letter.pdf) sizes.
+- [Detexify](https://detexify.kirelabs.org/classify.html) - You draw the symbol and this site/app will tell you the LaTeX command.
 
 ## Resources
 
 - [TUG](https://www.tug.org) - The TeX User Group is a way to get in touch with other (La)TeX users.
-- [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
-- [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
-- [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
+- [TeXDoc](https://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
+- [Dickimaw Books: LaTeX resources](https://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
+- [LaTeX cookbook](https://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
 - [Visual FAQ](https://ctan.org/pkg/visualfaq) - Typesetting issues and a link to appropriate TeX FAQ answers.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
-- [LaTeX community](http://latex.org/forum) - Forum about LaTeX.
+- [LaTeX community](https://latex.org/forum) - Forum about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
-- [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
-- [TeX World](http://tex.world/) -  Websites supported by the TeX Users Group, DANTE, and GUTenberg.
+- [BibTeX Style Examples](https://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
+- [TeX World](https://tex.world/) -  Websites supported by the TeX Users Group, DANTE, and GUTenberg.
 - [TeXnique](https://texnique.xyz) - A LaTeX Typesetting Game.
 
 ## Showcases
@@ -257,7 +257,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ## Tutorials
 
-- [The (Not So) Short Introduction to LaTeX2e](http://mirrors.ctan.org/info/lshort/english/lshort.pdf) - Very comprehensive introduction to LaTeX.
+- [The (Not So) Short Introduction to LaTeX2e](https://mirrors.ctan.org/info/lshort/english/lshort.pdf) - Very comprehensive introduction to LaTeX.
 - [Begin LaTeX in minutes](https://github.com/LewisVo/Begin-Latex-in-minutes) - Brief intro to LaTeX for beginners that helps you use LaTeX with ease.
 - [Getting to Grips with LaTeX](https://www.andy-roberts.net/writing/latex) - Complete guide going through the majority of things you need to know about LaTeX.
 - [LaTeX introductions in languages other than English](https://tex.stackexchange.com/questions/84384/latex-introductions-in-languages-other-than-english/84385) - Collection of introductions in many languages.
@@ -269,13 +269,13 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [LaTeX Graphics Companion, M. Goossens (2007)](https://www.informit.com/store/latex-graphics-companion-9780321508928)
 - [TeX by Topic (2007)](https://ctan.org/pkg/texbytopic)
 - [TeX for the Impatient (2020)](https://ctan.org/pkg/impatient)
-- [Formatting Information (2020)](http://latex.silmaril.ie/formattinginformation) - This is the HTML5-based online version of the book *Formatting Information - An introduction to typesetting with LATEX*. It has been continuosuly updated since the early 2000s.
+- [Formatting Information (2020)](https://latex.silmaril.ie/formattinginformation) - This is the HTML5-based online version of the book *Formatting Information - An introduction to typesetting with LATEX*. It has been continuosuly updated since the early 2000s.
 
 ## Blogs
 
-- [TeXblog](http://texblog.net) - Blog about LaTeX and everything related.
+- [TeXblog](https://texblog.net) - Blog about LaTeX and everything related.
 - [texblog.org](https://texblog.org) - Blog on LaTeX and related topics (tutorials, packages, code snippets, etc.).
-- [TeX Talk](http://tex-talk.net) - Blog for the TeX Stack Exchange site with news and interviews.
+- [TeX Talk](https://tex-talk.net) - Blog for the TeX Stack Exchange site with news and interviews.
 
 ## Social media
 
