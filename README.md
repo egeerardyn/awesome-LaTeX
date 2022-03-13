@@ -11,6 +11,7 @@
 - [Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) ![License: CC BY-SA 4.0](LICENSE.md)](#awesome-latex-awesome-)
   - [Contents](#contents)
   - [Distributions](#distributions)
+  - [Docker Images](#docker-images)
   - [Engines](#engines)
     - [LaTeX formulas on the web](#latex-formulas-on-the-web)
   - [Editors](#editors)
@@ -54,6 +55,14 @@ Guides how to learn LaTeX
 - [MacTeX](https://tug.org/mactex/) - Most common LaTeX distribution for macOS, basically TeXLive with some Mac-specific tools added. ![mac]
 - [TeX Live](https://www.tug.org/texlive/) - Most common LaTeX distribution for Unix-like operating systems, including GNU/Linux. Also works on Windows. ![linux] ![windows]
 - [MikTeX](https://miktex.org) - Most common LaTeX distribution for Windows, but also available for Mac, Linux or as Docker image.  ![linux] ![windows] ![mac] ![foss]
+
+## Docker Images
+
+When one aims for a ready-to-run LaTeX environment without installing, Docker images might be the choice.
+
+- [reitzig/texlive-docker](https://github.com/reitzig/texlive-docker) - minimal TeXLive system with package installation possibility
+- [Island of TeX/texlive](https://gitlab.com/islandoftex/images/texlive) - debian-based full TeXLive system
+- [dante-ev/docker-texlive](https://github.com/dante-ev/docker-texlive) - debian-based full TeXLive system with addtions with pandoc, perl, and python pre-installed
 
 ## Engines
 
