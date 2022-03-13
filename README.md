@@ -103,7 +103,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
   - [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
 
 - [Sublime Text](https://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
-  - [LaTeXing](https://www.latexing.com) - Commercial plug-in to edit LaTeX.
+  - [LaTeXing](https://github.com/LaTeXing/LaTeXing) - Free plug-in to edit LaTeX. ![foss]
   - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
 
 - [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss]
