@@ -8,36 +8,39 @@
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Learning LaTeX](#learning-latex)
-- [Distributions](#distributions)
-- [Engines](#engines)
-	- [LaTeX formulas on the web](#latex-formulas-on-the-web)
-- [Editors](#editors)
-	- [LaTeX-focused](#latex-focused)
-	- [General purpose text editors](#general-purpose-text-editors)
-	- [Online editors](#online-editors)
-- [Bibliography tools](#bibliography-tools)
-- [Build Tools](#build-tools)
-- [Misc. Tools](#misc-tools)
-- [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
-- [Packages](#packages)
-	- [References](#references)
-	- [Tables](#tables)
-	- [Graphics](#graphics)
-		- [PSTricks](#pstricks)
-		- [TikZ](#tikz)
-	- [Source Code](#source-code)
-	- [Typography](#typography)
-- [Templates](#templates)
-- [Symbols](#symbols)
-- [Resources](#resources)
-- [Showcases](#showcases)
-- [Tutorials](#tutorials)
-- [Books](#books)
-- [Blogs](#blogs)
-- [Social media](#social-media)
-- [Meta Awesome-LaTeX](#meta-awesome-latex)
-- [Legend](#legend)
+- [Awesome LaTeX [![awesome]](https://github.com/sindresorhus/awesome) ![License: CC BY-SA 4.0](LICENSE.md)](#awesome-latex-awesome-)
+  - [Contents](#contents)
+  - [Learning LaTeX](#learning-latex)
+  - [Distributions](#distributions)
+  - [Engines](#engines)
+    - [LaTeX formulas on the web](#latex-formulas-on-the-web)
+  - [Editors](#editors)
+    - [LaTeX-focused](#latex-focused)
+    - [General purpose text editors](#general-purpose-text-editors)
+    - [Online editors](#online-editors)
+  - [Bibliography tools](#bibliography-tools)
+  - [Build Tools](#build-tools)
+  - [Misc. Tools](#misc-tools)
+  - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
+  - [Packages](#packages)
+    - [References](#references)
+    - [Tables](#tables)
+    - [Graphics](#graphics)
+      - [PSTricks](#pstricks)
+      - [TikZ](#tikz)
+    - [Source Code](#source-code)
+    - [Typography](#typography)
+    - [Presentations, Slides](#presentations-slides)
+  - [Templates](#templates)
+  - [Symbols](#symbols)
+  - [Resources](#resources)
+  - [Showcases](#showcases)
+  - [Tutorials](#tutorials)
+  - [Books](#books)
+  - [Blogs](#blogs)
+  - [Social media](#social-media)
+  - [Meta Awesome-LaTeX](#meta-awesome-latex)
+  - [Legend](#legend)
 
 <!-- /TOC -->
 
@@ -99,26 +102,26 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a lot more!
 
 - [Atom](https://atom.io) [![Atom][awesome]](https://github.com/mehcode/awesome-atom) ![foss]
-	- [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
+  - [LaTeXTools](https://atom.io/packages/latextools) - Atom port of the Sublime Text package of the same name. ![foss]
 
 - [Sublime Text](https://www.sublimetext.com) [![Sublime Text][awesome]](https://github.com/dreikanter/sublime-bookmarks)
-	- [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
-	- [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
+  - [LaTeXing](http://www.latexing.com) - Commercial plug-in to edit LaTeX.
+  - [LaTeXTools](https://github.com/SublimeText/LaTeXTools) - Free LaTeX plugin for Sublime Text. ![foss]
 
 - [Emacs](https://www.gnu.org/software/emacs/)  [![Emacs][awesome]](https://github.com/emacs-tw/awesome-emacs) ![foss]
-	- [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss]
-	- [RefTeX](https://www.gnu.org/software/auctex/reftex) - Emacs plugin for LaTeX that adds support for labels, references, and citations. ![foss]
+  - [AucTeX](https://www.gnu.org/software/auctex/) - Emacs plugin for LaTeX that also shows a preview of equations and figures. ![foss]
+  - [RefTeX](https://www.gnu.org/software/auctex/reftex) - Emacs plugin for LaTeX that adds support for labels, references, and citations. ![foss]
 
 - [Vim](http://www.vim.org) [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss]
-	- [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss]
-	- [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
-	- [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
+  - [Vim-LaTeX](http://vim-latex.sourceforge.net) ![foss]
+  - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss]
+  - [vimtex](https://github.com/lervag/vimtex) - Modern vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss]
 
 - [IntelliJ](https://www.jetbrains.com/idea/)
-	- [TeXiFy-IDEA](https://github.com/Ruben-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss]
+  - [TeXiFy-IDEA](https://github.com/Ruben-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss]
 
 - [VS Code](https://code.visualstudio.com/) [![VS Code][awesome]](https://github.com/viatsko/awesome-vscode) ![foss]
-	- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
+  - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
 
 ### Online editors
 
@@ -173,7 +176,6 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [GeoGebra](https://www.geogebra.org/cms/) - Cross-platform geometry tool with output to TikZ. ![foss]
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss]
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows] ![linux] ![mac] ![foss]
-
 
 ## Packages
 
