@@ -154,7 +154,8 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 
 ### GitHub Actions
 
-- [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) GitHub Action to compile LaTeX documents
+- [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) - GitHub Action to compile LaTeX documents
+- [dante-ev/latex-action](https://github.com/dante-ev/latex-action) - DANTE e.V.'s GitHub action to compile LaTeX documents. Offers a full TeXLive and pre-installed perl and python.
 
 ## Misc. Tools
 
