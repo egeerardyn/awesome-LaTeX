@@ -137,12 +137,12 @@ Online editors that allow you to edit documents collaboratively.
 ## Bibliography tools
 
 - [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![mac] ![windows] ![linux] ![foss]
-- [Papis](https://github.com/alejandrogallo/papis) - Extremely customizable,
+- [Papis](https://github.com/papis/papis) - Extremely customizable,
   powerful and simple cross-platform (Python) library manager. It has a very
   complete Command-Line-Interface, several GUIs and scripting capability.
   ![linux] ![mac] ![foss]
 - [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![mac].
-- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] [![foss]](https://github.com/zotero/)
+- [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac] ![windows] ![linux] ![foss]
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![mac] ![windows] ![linux]
 - [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac] ![windows] ![linux] ![foss]
 
@@ -150,9 +150,8 @@ Online editors that allow you to edit documents collaboratively.
 
 Compiling LaTeX documents can be tedious, build tools help you to manage the compilation process.
 
-- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/cereda/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss]
+- [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/islandoftex/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss]
 - [latexmk](https://www.ctan.org/pkg/latexmk) - Build tool that is the commonly used by many LaTeX editors (LaTeXing, TeXShop, etc.) to build your LaTeX files. ![foss]
-- [latex-makefile](https://github.com/alejandrogallo/latex-makefile) - `Makefile` based build tool that attempts to be as general and lightweight as possible. ![foss]
 
 ## Misc. Tools
 
@@ -241,10 +240,9 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TeXDoc](http://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [Dickimaw Books: LaTeX resources](http://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
 - [LaTeX cookbook](http://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
-- [Visual FAQ](http://mirrors.ctan.org/info/visualFAQ/visualFAQ.pdf) - Typesetting issues and a link to appropriate TeX FAQ answers.
+- [Visual FAQ](https://ctan.org/pkg/visualfaq) - Typesetting issues and a link to appropriate TeX FAQ answers.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
-- [MacTeX Wiki: TeX Extras](http://mactex-wiki.tug.org/wiki/index.php/TeX_Extras) - Overview of useful tools for LaTeX. Many of them are specific for Mac, but quite a bit are useful for other platforms as well.
-- [LaTeX community](http://latex.org/index.php) - Forum and blog about LaTeX.
+- [LaTeX community](http://latex.org/forum) - Forum about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
 - [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
 - [TeX World](http://tex.world/) -  Websites supported by the TeX Users Group, DANTE, and GUTenberg.
