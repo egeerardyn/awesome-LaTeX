@@ -179,6 +179,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![windows] ![linux] ![mac] ![foss]
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows] ![linux] ![mac] ![foss]
+- [DynamicDocs API](https://advicement.io/dynamic-documents-api) - Generate dynamic documents with JSON to PDF API based on templates written in LaTeX.
 
 ## LaTeX-compatible GUI tools
 
