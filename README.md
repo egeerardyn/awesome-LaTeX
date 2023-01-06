@@ -144,7 +144,7 @@ Online editors that allow you to edit documents collaboratively.
 
 ## Bibliography tools
 
-- [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. The GUI looks quite dated, though. ![mac] ![windows] ![linux] ![foss]
+- [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. ![mac] ![windows] ![linux] ![foss]
 - [Papis](https://github.com/papis/papis) - Extremely customizable,
   powerful and simple cross-platform (Python) library manager. It has a very
   complete Command-Line-Interface, several GUIs and scripting capability.
