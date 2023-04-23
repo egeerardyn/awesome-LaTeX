@@ -132,7 +132,6 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
   - [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) - LanguageTool grammar/spell checking ![foss]
   - [a-nau/latex-devcontainer](https://github.com/a-nau/latex-devcontainer) - Devcontainer setup for easy LaTeX usage without local installation ![foss]
 
-
 ### Online editors
 
 Online editors that allow you to edit documents collaboratively.
