@@ -145,6 +145,7 @@ Online editors that allow you to edit documents collaboratively.
 
 ## Bibliography tools
 
+- [Synthical](https://synthical.com) - AI-powered collaborative environment for Research.
 - [JabRef](https://www.jabref.org) - Very powerful cross-platform (Java) bibtex editor. ![mac] ![windows] ![linux] ![foss]
 - [Papis](https://github.com/papis/papis) - Extremely customizable,
   powerful and simple cross-platform (Python) library manager. It has a very
