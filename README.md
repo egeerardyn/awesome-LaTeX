@@ -300,6 +300,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [TeXblog](https://texblog.net) - Blog about LaTeX and everything related.
 - [texblog.org](https://texblog.org) - Blog on LaTeX and related topics (tutorials, packages, code snippets, etc.).
 - [TeX Talk](https://tex-talk.net) - Blog for the TeX Stack Exchange site with news and interviews.
+- [TeX Hour](https://texhour.github.io/) - A weekly video meeting
 
 ## Social media
 
