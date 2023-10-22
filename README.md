@@ -250,6 +250,10 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [LaTeX templates](https://www.latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
 - [Ultimate Beamer Theme List](https://github.com/martinbjeldbak/ultimate-beamer-theme-list) - Links to various beamer themes along with PDF previews.
 - [LaTeX Beamer Theme Overview](https://github.com/UweZiegenhagen/LaTeX-Beamer-Theme-Overview/blob/main/OVERVIEW.md) - Visual overview of beamer themes included in TeXLive
+- [Awesome CV](https://github.com/posquit0/Awesome-CV) - LaTeX template for your outstanding job application.
+- [LaTex CV and Resume Collection](https://github.com/jankapunkt/latexcv) - A collection of cv and resume templates written in LaTeX.
+- [moderncv](https://ctan.org/pkg/moderncv) - A modern curriculum vitae class.
+- [AltaCV](https://github.com/liantze/AltaCV) - Yet another alternative curriculum vitae/résumé class with LaTeX.
 
 ## Symbols
 
