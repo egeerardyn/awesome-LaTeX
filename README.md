@@ -142,6 +142,7 @@ Online editors that allow you to edit documents collaboratively.
 - [WebLaTeX](https://github.com/sanjib-sen/weblatex) - Web-based vscode with Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support based on GitHub Codespace and Dev container.
 - [Papeeria](https://papeeria.com) - Online editor with built-in git support.
 - [JaxEdit](https://zohooo.GitHub.io/jaxedit/) - Online LaTeX editor with Live Preview and nice presentation mode.
+- [Vexlio](https://vexlio.com/) - Online diagram editor with built-in LaTeX equation support including live preview and easy exports. 
 
 ## Bibliography tools
 
