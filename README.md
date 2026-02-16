@@ -140,6 +140,7 @@ Online editors that allow you to edit documents collaboratively.
 - [Crixet](https://app.crixet.com) - Online editor with realtime collaboration features.
 - [Modern LaTeX Editor](https://github.com/InMDev/Modern-LaTeX-Editor) - Online editor, no-signup hybrid code editor + visual editor that mixes Notion/Google docs/Microsoft Word-like editing with raw LaTeX code blocks.
 - [Octree](https://useoctree.com) - Online editor with AI writing assistance.
+- [LaTeX Editor](https://latex.spicychai.com) - Developer friendly online LaTeX edit with AI support.
 - [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and git support.
   - [olcli](https://github.com/aloth/olcli) - Command-line interface for Overleaf to sync, manage, and compile projects from the terminal. ![foss]
 - [WebLaTeX](https://github.com/sanjib-sen/weblatex) - Web-based vscode with Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support based on GitHub Codespace and Dev container.
