@@ -163,6 +163,7 @@ Online editors that allow you to edit documents collaboratively.
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![mac] ![windows] ![linux]
 - [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac] ![windows] ![linux] ![foss]
 - [OneCite](https://github.com/HzaCode/OneCite) - Universal citation management and academic reference toolkit that converts messy references into perfectly formatted citations. Supports DOI, arXiv ID, titles, and more, with output in BibTeX, APA, and MLA formats. ![mac] ![windows] ![linux] ![foss]
+- [CiteMe](https://citeme.app) - AI-powered academic citation generator that searches 11+ databases (OpenAlex, PubMed, Semantic Scholar, CrossRef, SciELO, etc.) and formats references in 40+ citation styles (APA, ABNT, MLA, Chicago, Harvard, IEEE, etc.). Available as web app, Chrome extension, Google Docs add-on, and Word add-in.
 
 ## Build Tools
 
