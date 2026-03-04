@@ -322,6 +322,13 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ---
 
+## Alternatives to LaTeX
+
+- [ConTeXt](https://wiki.contextgarden.net/Main_Page) - Alternative to LaTeX also based on TeX. No need for packages (already shipped in), you can configure almost everything, and the syntax is consistent across macros.
+- [Typst](https://typst.app/) - Does not use TeX, it's a new compiler built in Rust. Markdown-like syntax, beautiful, concise, and consistent. Open source and has a WebAssembly version. Templates and packages from the [Typst universe](https://typst.app/universe/) allow it to be modular and scalable.
+
+---
+
 <!-- Icons -->
 
 ## Meta Awesome-LaTeX
