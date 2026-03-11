@@ -166,6 +166,7 @@ Online editors that allow you to edit documents collaboratively.
 - [OneCite](https://github.com/HzaCode/OneCite) - Universal citation management and academic reference toolkit that converts messy references into perfectly formatted citations. Supports DOI, arXiv ID, titles, and more, with output in BibTeX, APA, and MLA formats. ![mac] ![windows] ![linux] ![foss]
 - [CrossRef Local](https://github.com/ywatanabe1989/crossref-local) - Local CrossRef database (167M papers) with full-text search, impact factor data, Python API for bibliography enrichment, and an MCP server (15 tools). ![foss]
 - [OpenAlex Local](https://github.com/ywatanabe1989/openalex-local) - Local OpenAlex database (284M scholarly works) with abstracts and semantic search for literature discovery, and an MCP server. ![foss]
+- [CiteMe](https://citeme.app) - Academic citation generator that searches OpenAlex, CrossRef, PubMed, and Semantic Scholar. Formats in 40+ CSL styles and exports to BibTeX and RIS.
 
 ## Build Tools
 
