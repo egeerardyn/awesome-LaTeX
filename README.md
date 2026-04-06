@@ -4,6 +4,7 @@
 
 > This is a curated list of awesome stuff for the [(La)TeX typesetting system](https://www.latex-project.org/).
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for LaTeX document workflow orchestration, automated typesetting management, and multi-agent coordination. MIT licensed.
 ## Contents
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
