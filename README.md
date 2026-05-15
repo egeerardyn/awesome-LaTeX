@@ -191,6 +191,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [ChkTeX](https://www.nongnu.org/chktex/) - Linter / code checker for LaTeX documents. ![foss]
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows] ![linux] ![mac] ![foss]
+- [latex2arxiv](https://github.com/YuZh98/latex2arxiv) - CLI tool that prepares a LaTeX project for arXiv submission: prunes unreachable files, strips draft markup, validates the bibliography, and catches desk-rejection errors before upload. Also available as a GitHub Action and MCP server for AI agents. ![windows] ![linux] ![mac] ![foss]
 
 ### Tools centered around equations
 
