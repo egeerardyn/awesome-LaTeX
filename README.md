@@ -201,6 +201,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 
 - [latexindent](https://ctan.org/pkg/latexindent) - Perl script that indents and reformats LaTeX documents, highly configurable through YAML settings and shipped with the major TeX distributions. ![foss]
 - [tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - Extremely fast LaTeX formatter written in Rust, with sensible defaults and minimal configuration. ![foss]
+- [Badness](https://github.com/jolars/badness) - Deterministic, rule-based, and idempotent LaTeX formatter written in Rust (also a linter and language server). ![foss]
 
 ### Quality Check Tools
 
