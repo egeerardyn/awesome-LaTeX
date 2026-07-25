@@ -24,6 +24,7 @@
   - [Build Tools](#build-tools)
     - [GitHub Actions](#github-actions)
   - [Misc. Tools](#misc-tools)
+    - [Formatters](#formatters)
     - [Quality Check Tools](#quality-check-tools)
     - [Tools centered around equations](#tools-centered-around-equations)
   - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
@@ -193,6 +194,12 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [Pandoc](https://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, etc.) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss]
 - [SciTeX Writer](https://github.com/ywatanabe1989/scitex-writer) - Manuscript compilation system with templates for manuscripts, revisions, and supplementary materials, plus figure, table, and citation handling, and an MCP server (38 tools). ![foss]
+
+### Formatters
+
+Formatters keep the layout of your LaTeX source consistent, so that you can focus on the content.
+
+- [latexindent](https://ctan.org/pkg/latexindent) - Perl script that indents and reformats LaTeX documents, highly configurable through YAML settings and shipped with the major TeX distributions. ![foss]
 
 ### Quality Check Tools
 
