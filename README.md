@@ -200,6 +200,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 Formatters keep the layout of your LaTeX source consistent, so that you can focus on the content.
 
 - [latexindent](https://ctan.org/pkg/latexindent) - Perl script that indents and reformats LaTeX documents, highly configurable through YAML settings and shipped with the major TeX distributions. ![foss]
+- [tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - Extremely fast LaTeX formatter written in Rust, with sensible defaults and minimal configuration. ![foss]
 
 ### Quality Check Tools
 
