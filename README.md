@@ -19,6 +19,7 @@
     - [LaTeX-focused](#latex-focused)
     - [General purpose text editors](#general-purpose-text-editors)
     - [Online editors](#online-editors)
+  - [Language Servers](#language-servers)
   - [Bibliography tools](#bibliography-tools)
   - [Build Tools](#build-tools)
     - [GitHub Actions](#github-actions)
@@ -152,6 +153,12 @@ Online editors that allow you to edit documents collaboratively.
 - [JaxEdit](https://zohooo.GitHub.io/jaxedit/) - Online LaTeX editor with Live Preview and nice presentation mode.
 - [Vexlio](https://vexlio.com/) - Online diagram editor with built-in LaTeX equation support including live preview and easy exports. 
 - [TeXbrain](https://tex.swimmingbrain.dev) - Free, open-source browser-based LaTeX editor with in-browser compilation, live PDF preview and Git integration. No account or install required. ![foss]
+
+## Language Servers
+
+Language servers bring IDE features (completion, diagnostics, navigation, and more) to any editor that speaks the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/), such as Neovim, VS Code, Emacs, and Helix.
+
+- [TexLab](https://github.com/latex-lsp/texlab) - Language server for LaTeX and BibTeX with completion, definitions, references, rename, formatting, and forward search. ![foss]
 
 ## Bibliography tools
 
