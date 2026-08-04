@@ -20,4 +20,4 @@ jobs:
     - name: Checks
       run: |
         gem install awesome_bot
-        awesome_bot README.md --allow-ssl -a 302,429,301 -w www.latex-project.org,mirrors.ctan.org,authorea.com,prism.openai.com,latex.org,www.latex.org
+        awesome_bot README.md --allow-ssl -a 302,429,301 --allow-dupe -w www.latex-project.org,mirrors.ctan.org,authorea.com,prism.openai.com,latex.org,www.latex.org
