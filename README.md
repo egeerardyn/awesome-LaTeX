@@ -160,7 +160,7 @@ Online editors that allow you to edit documents collaboratively.
 Language servers bring IDE features (completion, diagnostics, navigation, and more) to any editor that speaks the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/), such as Neovim, VS Code, Emacs, and Helix.
 
 - [TexLab](https://github.com/latex-lsp/texlab) - Language server for LaTeX and BibTeX with completion, definitions, references, rename, formatting, and forward search. ![foss]
-- [Badness](https://github.com/jolars/badness) - Language server, formatter, and linter for LaTeX built on a lossless, error-tolerant syntax tree in the style of rust-analyzer. ![foss]
+- [Badness][badness] - Language server, formatter, and linter for LaTeX built on a lossless, error-tolerant syntax tree in the style of rust-analyzer. ![foss]
 
 ## Bibliography tools
 
@@ -201,14 +201,14 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 
 - [latexindent](https://ctan.org/pkg/latexindent) - Perl script that indents and reformats LaTeX documents, highly configurable through YAML settings and shipped with the major TeX distributions. ![foss]
 - [tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) - Extremely fast LaTeX formatter written in Rust, with sensible defaults and minimal configuration. ![foss]
-- [Badness](https://github.com/jolars/badness) - Deterministic, rule-based, and idempotent LaTeX formatter written in Rust (also a linter and language server). ![foss]
+- [Badness][badness] - Deterministic, rule-based, and idempotent LaTeX formatter written in Rust (also a linter and language server). ![foss]
 
 ### Quality Check Tools
 
 - [ChkTeX](https://www.nongnu.org/chktex/) - Linter / code checker for LaTeX documents. ![foss]
 - [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows] ![linux] ![mac] ![foss]
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows] ![linux] ![mac] ![foss]
-- [Badness](https://github.com/jolars/badness) - Error-tolerant LaTeX linter with rich diagnostics and source snippets (also a formatter and language server). ![foss]
+- [Badness][badness] - Error-tolerant LaTeX linter with rich diagnostics and source snippets (also a formatter and language server). ![foss]
 
 ### Tools centered around equations
 
@@ -371,3 +371,4 @@ All trademarks are property of their respective owners.
 [windows]: https://cdn.jsdelivr.net/gh/egeerardyn/awesome-LaTeX@700138fe725574e1741f148df6d1f77a8aa07eee/fig/windows.svg
 [foss]: https://cdn.jsdelivr.net/gh/egeerardyn/awesome-LaTeX@700138fe725574e1741f148df6d1f77a8aa07eee/fig/foss.svg
 [awesome]: https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
+[badness]: https://github.com/jolars/badness
