@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" role="img" aria-labelledby="title desc">
+  <title id="title">LaTeX Logo</title>
+  <desc id="desc">Simple LaTeX wordmark rendered as vector text.</desc>
+  <rect width="320" height="90" fill="white"/>
+  <text x="16" y="62" font-family="Times New Roman, Times, serif" font-size="52" fill="black">L<tspan dy="-18" font-size="30">A</tspan><tspan dy="18" font-size="52">T</tspan><tspan dy="0" font-size="52">E</tspan><tspan dy="0" font-size="52">X</tspan></text>
+</svg>
