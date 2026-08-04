@@ -3,7 +3,7 @@
 ## Project context
 
 This repository (`egeerardyn/awesome-LaTeX`) is an **awesome list**: a curated collection of LaTeX-related resources.
-The primary content is in `/home/runner/work/awesome-LaTeX/awesome-LaTeX/README.md`, where entries are listed as links plus short descriptions.
+The primary content is in `README.md`, where entries are listed as links plus short descriptions.
 
 Key expectations from existing contribution guidance:
 - Keep changes curated and high-signal (quality over quantity).
