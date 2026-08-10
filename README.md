@@ -86,6 +86,7 @@ When one aims for a ready-to-run LaTeX environment without installing, Docker im
 - [KaTeX](https://katex.org) - KaTeX is a math rendering library made by Khan Academy focusing on fast load times. All output is processed as plain HTML instead of fixed images. ![foss]
 - [Franklin.jl](https://franklinjl.org/) - Static site generator with KaTeX support, code evaluation, LaTeX-like commands and optional pre-rendering, in Julia. ![foss]
 - [xhub](https://github.com/nschloe/xhub) - Browser extension that lets you use LaTeX in GitHub pages. ![foss]
+- [MathLive](https://mathlive.io/) - Web component for editing and displaying math with LaTeX, including virtual keyboards and MathML/speech export. ![foss]
 
 ## Editors
 
