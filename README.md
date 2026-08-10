@@ -161,6 +161,7 @@ Online editors that allow you to edit documents collaboratively.
 - [TeXbrain](https://tex.swimmingbrain.dev) - Free, open-source browser-based LaTeX editor with in-browser compilation, live PDF preview and Git integration. No account or install required. ![foss]
 - [LetX](https://letx.app) - Online editor with real-time multi-author collaboration (CRDT), bidirectional SyncTeX, and 1000+ journal/thesis templates.
 - [Sarmate.net](https://www.sarmate.net) - Online editor with 5 built-in WYSIWYG helpers (TikZ figures, probability trees, sign tables, color boxes, LaTeX tables) that auto-generate clean LaTeX code. Cloud compilation, real-time collaboration, free tier.
+- [TeXlyre](https://texlyre.github.io/texlyre/) - Local-first, open-source browser editor for LaTeX with in-browser WASM compilation, offline editing, and peer-to-peer collaboration via WebRTC. ![foss]
 
 ## Language Servers
 
