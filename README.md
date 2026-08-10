@@ -164,6 +164,7 @@ Online editors that allow you to edit documents collaboratively.
 - [TeXlyre](https://texlyre.github.io/texlyre/) - Local-first, open-source browser editor for LaTeX with in-browser WASM compilation, offline editing, and peer-to-peer collaboration via WebRTC. ![foss]
 - [CoCalc](https://cocalc.ai/features/latex-editor) - Collaborative online LaTeX editor with real-time editing, TimeTravel history, and first-class SageTeX, PythonTeX, and Knitr support.
 - [VerbTeX](https://verbosus.com/) - LaTeX editor for the browser plus native Android, iOS, and Windows apps, with optional offline compilation on device.
+- [Murfy](https://www.murfy.ai) - Online LaTeX editor with real-time collaboration and built-in AI assistance for writing and error fixing.
 
 ## Language Servers
 
