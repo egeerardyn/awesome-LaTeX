@@ -214,6 +214,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows] ![linux] ![mac] ![foss]
 - [Badness](https://github.com/jolars/badness) - Error-tolerant LaTeX linter with rich diagnostics and source snippets (also a formatter and language server). ![foss]
 - [latex2arxiv](https://github.com/YuZh98/latex2arxiv) - CLI tool that prepares a LaTeX project for arXiv submission: prunes unreachable files, strips draft markup, validates the bibliography, and catches desk-rejection errors before upload. Also available as a GitHub Action and MCP server for AI agents. ![windows] ![linux] ![mac] ![foss]
+- [Druckdatei prüfen](https://druckdatei-pruefen.vercel.app) - Checks a compiled book PDF against print-on-demand requirements before upload: page size of every single page, embedded fonts, distance from the printed area to all four paper edges (inner gutter and outer margin measured separately), the gutter required for the page count, and the effective resolution of each image at its placed size. Runs entirely in the browser, so the file never leaves the machine. German-language interface.
 
 ### Tools centered around equations
 
