@@ -226,6 +226,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [LaTeX to Image](https://thomasahle.com/latex2png/) - Convert LaTeX to PNG, JPEG, or SVG images. Big symbols menu and easy drag-and-drop equations.
 - [pix2tex](https://lukas-blecher.github.io/LaTeX-OCR/) - LaTeX OCR ![windows] ![linux] ![mac] ![foss]
 - [Image to LaTeX](https://www.underleaf.ai/tools/image-to-latex) - AI-powered converter that transforms images of handwritten notes, equations, or tables into clean LaTeX code.
+- [VietaMath](https://github.com/liamhawtin/vieta-math) - Browser-based editor for structured mathematical notation, with standalone and ProseMirror integrations. ![foss]
 
 ## LaTeX-compatible GUI tools
 
