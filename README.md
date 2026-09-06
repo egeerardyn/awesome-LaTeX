@@ -110,7 +110,7 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 - [Texifier](https://www.texifier.com/) - Commercial LaTeX editor for macOS and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices, etc.) that never get in the way of writing. ![mac]
 - [TeX64](https://tex64.com) – Native macOS LaTeX editor with AI-powered error fixing, equation OCR, live PDF preview, and structured math editing. ![mac]
 - [Oleafly](https://github.com/Oleafly/Oleafly) - Free, open-source desktop editor for LaTeX, Typst, and Markdown with live PDF preview, SyncTeX, bundled engines, and Git-native projects. ![foss]
-- [LaTeX Editor](https://github.com/s-balli/latex-editor) - Notepad++-style desktop editor with instant PDF preview after every save, two-way SyncTeX, project-wide search, and a bibliography manager that adds sources by DOI. Works fully offline. ![windows] ![linux] ![foss]
+- [LaTeX Editor](https://github.com/s-balli/latex-editor) - Single-executable desktop editor with live PDF preview, two-way SyncTeX, LaTeX-aware spell checking, and one-key project snapshots written as a standard git repository. Needs a separate TeX distribution. ![windows] ![linux] ![foss]
 
 ### General purpose text editors
 
