@@ -271,6 +271,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Convert your matplotlib plots to PGFPlots/TikZ. ![windows] ![linux] ![mac] ![foss]
 - [TikZBlog](https://latexdraw.com) - Step-by-Step Tutorials about How to Draw Illustrations in LaTeX.
 - [OpenTikZ](https://github.com/opentikz/opentikz) - Community library of copyable TikZ icons and editable, parametric templates for academic conceptual diagrams (system/architecture, pipelines, flowcharts); CC0 content, with a Claude Code skill to edit figures on request. ![foss]
+- [statusstamp](https://github.com/cmccomb/statusstamp) - LaTeX package for document status stamps with configurable placement, page selection, and a reproducible distressed TikZ effect. ![foss]
 
 ### Source Code
 
