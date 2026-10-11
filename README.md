@@ -27,7 +27,6 @@
     - [Formatters](#formatters)
     - [Quality Check Tools](#quality-check-tools)
     - [Tools centered around equations](#tools-centered-around-equations)
-    - - [Toolspike LaTeX to Word](https://toolspike.com/tools/latex-to-word) - Convert LaTeX equations to editable Word (OMML) in the browser.
   - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
   - [Packages](#packages)
     - [References](#references)
@@ -227,6 +226,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [LaTeX to Image](https://thomasahle.com/latex2png/) - Convert LaTeX to PNG, JPEG, or SVG images. Big symbols menu and easy drag-and-drop equations.
 - [pix2tex](https://lukas-blecher.github.io/LaTeX-OCR/) - LaTeX OCR ![windows] ![linux] ![mac] ![foss]
 - [Image to LaTeX](https://www.underleaf.ai/tools/image-to-latex) - AI-powered converter that transforms images of handwritten notes, equations, or tables into clean LaTeX code.
+- [Toolspike LaTeX to Word](https://toolspike.com/tools/latex-to-word) - Convert LaTeX equations to editable Word (OMML) in the browser.
 
 ## LaTeX-compatible GUI tools
 
