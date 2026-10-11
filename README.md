@@ -27,6 +27,7 @@
     - [Formatters](#formatters)
     - [Quality Check Tools](#quality-check-tools)
     - [Tools centered around equations](#tools-centered-around-equations)
+    - - [Toolspike LaTeX to Word](https://toolspike.com/tools/latex-to-word) - Convert LaTeX equations to editable Word (OMML) in the browser.
   - [LaTeX-compatible GUI tools](#latex-compatible-gui-tools)
   - [Packages](#packages)
     - [References](#references)
