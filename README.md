@@ -181,6 +181,8 @@ Language servers bring IDE features (completion, diagnostics, navigation, and mo
 - [CrossRef Local](https://github.com/ywatanabe1989/crossref-local) - Local CrossRef database (167M papers) with full-text search, impact factor data, Python API for bibliography enrichment, and an MCP server (15 tools). ![foss]
 - [OpenAlex Local](https://github.com/ywatanabe1989/openalex-local) - Local OpenAlex database (284M scholarly works) with abstracts and semantic search for literature discovery, and an MCP server. ![foss]
 
+- [Bibby AI](https://trybibby.com) - AI-powered bibliography and research tool.
+
 ## Build Tools
 
 Compiling LaTeX documents can be tedious, build tools help you to manage the compilation process.
