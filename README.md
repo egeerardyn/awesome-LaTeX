@@ -226,6 +226,8 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [LaTeX to Image](https://thomasahle.com/latex2png/) - Convert LaTeX to PNG, JPEG, or SVG images. Big symbols menu and easy drag-and-drop equations.
 - [pix2tex](https://lukas-blecher.github.io/LaTeX-OCR/) - LaTeX OCR ![windows] ![linux] ![mac] ![foss]
 - [Image to LaTeX](https://www.underleaf.ai/tools/image-to-latex) - AI-powered converter that transforms images of handwritten notes, equations, or tables into clean LaTeX code.
+- [IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - PowerPoint add-in that inserts LaTeX equations typeset by your local TeX distribution and keeps the source with each shape, so you can edit and re-typeset it later. ![windows] ![mac] ![foss]
+- [MathPoint](https://tex64.com/mathpoint) - PowerPoint and Word add-in that inserts LaTeX equations, TikZ/pgfplots figures and tables typeset with LuaLaTeX on a server, so no local TeX installation is needed (also in PowerPoint for the web). Type LaTeX in its task pane or drive it from Claude or ChatGPT over MCP; the source stays with each shape for re-typesetting.
 
 ## LaTeX-compatible GUI tools
 
