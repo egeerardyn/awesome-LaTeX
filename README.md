@@ -196,6 +196,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 ## Misc. Tools
 
 - [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
+- [latex-look](https://github.com/fangchenghao/latex-look) - Sees what the compiled page actually looks like: renders any page to an image, maps a PDF point or a caption back to the exact source line through SyncTeX, diffs the page against the previous build, and audits every page for holes an edit introduced or figure numbers that now read out of order. CLI, MCP server and editor plugin over one core. ![foss]
 - [Pandoc](https://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, etc.) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss]
 - [SciTeX Writer](https://github.com/ywatanabe1989/scitex-writer) - Manuscript compilation system with templates for manuscripts, revisions, and supplementary materials, plus figure, table, and citation handling, and an MCP server (38 tools). ![foss]
 
