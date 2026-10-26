@@ -133,6 +133,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 
 - [IntelliJ](https://www.jetbrains.com/idea/)
   - [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss]
+  - [LaTeX Pro](https://plugins.jetbrains.com/plugin/33154-latex-pro) - Paid LaTeX and BibTeX plugin for IntelliJ IDEA and other JetBrains IDEs, with project-wide navigation and refactoring, local builds, PDF preview with SyncTeX, and bibliography management.
 
 - [VS Code](https://code.visualstudio.com/) [![VS Code][awesome]](https://github.com/viatsko/awesome-vscode) ![foss]
   - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code ![foss]
