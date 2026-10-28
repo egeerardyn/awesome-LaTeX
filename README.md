@@ -236,6 +236,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss]
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows] ![linux] ![mac] ![foss]
 - [LaTeXDraw](https://latexdraw.sourceforge.net/) - Vector-based drawing tool having LaTeX as first-class citizen. ![windows] ![linux] ![mac] ![foss]
+- [RustFig](https://fabianhassler.github.io/rustfig/) - xfig rebuilt for Windows, macOS, Linux and the browser (no X server): LaTeX text typeset on the canvas, and every fig2dev export built in (TikZ, PSTricks, pict2e, pstex/pdftex, PDF, EPS, SVG). Reads and writes xfig's .fig files. ![windows] ![linux] ![mac] ![foss]
 
 ## Packages
 
