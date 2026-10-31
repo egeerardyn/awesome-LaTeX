@@ -85,7 +85,8 @@ When one aims for a ready-to-run LaTeX environment without installing, Docker im
 - [KaTeX](https://khan.GitHub.io/KaTeX/) - KaTeX is a math rendering library made by Khan Academy focusing on fast load times. All output is processed as plain HTML instead of fixed images. ![foss]
 - [Franklin.jl](https://franklinjl.org/) - Static site generator with KaTeX support, code evaluation, LaTeX-like commands and optional pre-rendering, in Julia. ![foss]
 - [xhub](https://github.com/nschloe/xhub) - Browser extension that lets you use LaTeX in GitHub pages. ![foss]
-
+- [CamTeX](https://camtex.app) - Free AI-powered tool to convert handwritten math into LaTeX for Overleaf.
+  
 ## Editors
 
 Because editing LaTeX code with notepad is not awesome.
@@ -110,6 +111,7 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 - [Texifier](https://www.texifier.com/) - Commercial LaTeX editor for macOS and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices, etc.) that never get in the way of writing. ![mac]
 - [TeX64](https://tex64.com) – Native macOS LaTeX editor with AI-powered error fixing, equation OCR, live PDF preview, and structured math editing. ![mac]
 - [Oleafly](https://github.com/Oleafly/Oleafly) - Free, open-source desktop editor for LaTeX, Typst, and Markdown with live PDF preview, SyncTeX, bundled engines, and Git-native projects. ![foss]
+- [CamTeX](https://camtex.app) - Free AI-powered tool to convert handwritten math into LaTeX for Overleaf.
 
 ### General purpose text editors
 
@@ -158,6 +160,7 @@ Online editors that allow you to edit documents collaboratively.
 - [TeXbrain](https://tex.swimmingbrain.dev) - Free, open-source browser-based LaTeX editor with in-browser compilation, live PDF preview and Git integration. No account or install required. ![foss]
 - [LetX](https://letx.app) - Online editor with real-time multi-author collaboration (CRDT), bidirectional SyncTeX, and 1000+ journal/thesis templates.
 - [Sarmate.net](https://www.sarmate.net) - Online editor with 5 built-in WYSIWYG helpers (TikZ figures, probability trees, sign tables, color boxes, LaTeX tables) that auto-generate clean LaTeX code. Cloud compilation, real-time collaboration, free tier.
+- [CamTeX](https://camtex.app) - Free AI-powered tool to convert handwritten math into LaTeX for Overleaf.
 
 ## Language Servers
 
@@ -236,6 +239,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss]
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows] ![linux] ![mac] ![foss]
 - [LaTeXDraw](https://latexdraw.sourceforge.net/) - Vector-based drawing tool having LaTeX as first-class citizen. ![windows] ![linux] ![mac] ![foss]
+- [CamTeX](https://camtex.app) - Free AI-powered tool to convert handwritten math into LaTeX for Overleaf.
 
 ## Packages
 
