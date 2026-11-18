@@ -180,6 +180,7 @@ Language servers bring IDE features (completion, diagnostics, navigation, and mo
 - [OneCite](https://github.com/HzaCode/OneCite) - Universal citation management and academic reference toolkit that converts messy references into perfectly formatted citations. Supports DOI, arXiv ID, titles, and more, with output in BibTeX, APA, and MLA formats. ![mac] ![windows] ![linux] ![foss]
 - [CrossRef Local](https://github.com/ywatanabe1989/crossref-local) - Local CrossRef database (167M papers) with full-text search, impact factor data, Python API for bibliography enrichment, and an MCP server (15 tools). ![foss]
 - [OpenAlex Local](https://github.com/ywatanabe1989/openalex-local) - Local OpenAlex database (284M scholarly works) with abstracts and semantic search for literature discovery, and an MCP server. ![foss]
+- [Latexify Library](https://latexify.ai/library) - Chrome extension that keeps every paper you open in a searchable history (by title, author, tag or topic), with tags, notes and a reading list; cite a paper straight into your document and .bib from the Latexify editor, or let your AI search it over MCP.
 
 ## Build Tools
 
