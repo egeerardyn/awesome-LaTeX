@@ -198,6 +198,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [Pandoc](https://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, etc.) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss]
 - [SciTeX Writer](https://github.com/ywatanabe1989/scitex-writer) - Manuscript compilation system with templates for manuscripts, revisions, and supplementary materials, plus figure, table, and citation handling, and an MCP server (38 tools). ![foss]
+- [Word to LaTeX Converter](https://extensionguy.me/word-to-latex-converter/) - Converts Word (.docx) files, equations, and tables into LaTeX using Pandoc WebAssembly in the browser, without uploading documents.
 
 ### Formatters
 
