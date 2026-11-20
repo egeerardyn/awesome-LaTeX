@@ -61,16 +61,18 @@ When one aims for a ready-to-run LaTeX environment without installing, Docker im
 - [XeTeX](https://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the fonts of your operating system instead of only TeX fonts). ![foss](fig/foss.svg)
 - [LuaTeX](https://www.luatex.org) - (La)TeX compiler that supports Lua code for scripting and has improved unicode and font support than standard TeX/pdfTeX. ![foss](fig/foss.svg)
 - [tectonic](https://tectonic-typesetting.GitHub.io/en-US/) - Modern, self contained (La)TeX compiler powered by XeTeX and TeXLive. ![foss](fig/foss.svg)
+- [SwiftLaTeX](https://github.com/SwiftLaTeX/SwiftLaTeX) - pdfTeX and XeTeX compiled to WebAssembly, so you can compile LaTeX entirely in the browser or embed a TeX engine in a webpage. ![foss](fig/foss.svg)
 
 ### LaTeX formulas on the web
 
 - [Auto-LaTeX Equations with Google Docs](https://sites.google.com/site/autolatexequations) - Render high-quality math equations directly in Google Docs.
-- [MathJaX](https://www.mathjax.org) - JavaScript engine to render mathematical formulas on the web. The outcome looks really slick. ![foss](fig/foss.svg)
+- [MathJax](https://www.mathjax.org) - JavaScript engine to render mathematical formulas on the web. The outcome looks really slick. ![foss](fig/foss.svg)
 - [mimeTeX](https://ctan.org/pkg/mimetex) - Rather old tool to render LaTeX formulas to PNG figures for your web site, without actually needing a LaTeX installation on your server. ![foss](fig/foss.svg)
 - [mathTeX](https://ctan.org/pkg/mathtex) - Successor of mimeTeX: it produces nicer-looking images but it requires LaTeX to be installed on your server. ![foss](fig/foss.svg)
-- [KaTeX](https://khan.GitHub.io/KaTeX/) - Math rendering library made by Khan Academy focusing on fast load times. All output is processed as plain HTML instead of fixed images. ![foss](fig/foss.svg)
+- [KaTeX](https://katex.org) - Math rendering library made by Khan Academy focusing on fast load times. All output is processed as plain HTML instead of fixed images. ![foss](fig/foss.svg)
 - [Franklin.jl](https://franklinjl.org/) - Static site generator with KaTeX support, code evaluation, LaTeX-like commands and optional pre-rendering, in Julia. ![foss](fig/foss.svg)
 - [xhub](https://github.com/nschloe/xhub) - Browser extension that lets you use LaTeX in GitHub pages. ![foss](fig/foss.svg)
+- [MathLive](https://mathlive.io/) - Web component for editing and displaying math with LaTeX, including virtual keyboards and MathML/speech export. ![foss](fig/foss.svg)
 
 ## Editors
 
@@ -96,6 +98,10 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 - [Texifier](https://www.texifier.com/) - Commercial LaTeX editor for macOS and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices, etc.) that never get in the way of writing. ![mac](fig/apple.svg)
 - [TeX64](https://tex64.com) - Native macOS LaTeX editor with AI-powered error fixing, equation OCR, live PDF preview, and structured math editing. ![mac](fig/apple.svg)
 - [Oleafly](https://github.com/Oleafly/Oleafly) - Free, open-source desktop editor for LaTeX, Typst, and Markdown with live PDF preview, SyncTeX, bundled engines, and Git-native projects. ![foss](fig/foss.svg)
+- [Gummi](https://github.com/alexandervdm/gummi) - Simple GTK LaTeX editor with a continuously updating live preview pane. ![linux](fig/linux.svg) ![foss](fig/foss.svg)
+- [Texpile](https://texpile.com) - Free and open-source desktop editor that edits LaTeX visually (like LyX) or by source with IntelliSense, with local compilation and built-in Git. Also supports Typst and Markdown. ![foss](fig/foss.svg)
+- [LaTeX Editor](https://github.com/s-balli/latex-editor) - Single-executable desktop editor with live PDF preview, two-way SyncTeX, LaTeX-aware spell checking, and one-key project snapshots written as a standard Git repository. Needs a separate TeX distribution. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
+- [ModernTex](https://purplelink.llc/moderntex/) - Native macOS LaTeX editor for academic writing, with synced source and PDF, plain-language error messages, submission-readiness checks, a visual TikZ designer and a table editor. Free 7-day trial, then a one-time $19.99. ![mac](fig/apple.svg)
 
 ### General purpose text editors
 
@@ -119,6 +125,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 
 - [IntelliJ](https://www.jetbrains.com/idea/) - Java IDE by JetBrains that can be extended with plugins.
   - [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss](fig/foss.svg)
+  - [LaTeX Pro](https://plugins.jetbrains.com/plugin/33154-latex-pro) - LaTeX and BibTeX plugin for IntelliJ IDEA and other JetBrains IDEs, with project-wide navigation and refactoring, local builds, PDF preview with SyncTeX, and bibliography management. Paid ($30/yr, 7-day trial).
 
 - [VS Code](https://code.visualstudio.com/) - Free, extensible code editor by Microsoft. [![VS Code][awesome]](https://github.com/viatsko/awesome-vscode) ![foss](fig/foss.svg)
   - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code. ![foss](fig/foss.svg)
@@ -136,14 +143,20 @@ Online editors that allow you to edit documents collaboratively.
 - [Androma TeX Editor](https://androma.org) - Collaborative LaTeX editor integrated into a mathematics wiki, with issue tracking, pull requests, and WASM-based compilation.
 - [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and Git support. Also available as [Overleaf Community Edition](https://github.com/overleaf/overleaf) (self-hosted, AGPL licensed). ![foss](fig/foss.svg)
   - [olcli](https://github.com/aloth/olcli) - Command-line interface for Overleaf to sync, manage, and compile projects from the terminal. ![foss](fig/foss.svg)
+  - [overleaf-comments-export](https://github.com/Mangluu/overleaf-comments-export) - Exports comment threads, replies and tracked changes to Markdown and JSON, and annotates the compiled PDF with highlights on the commented text. ![foss](fig/foss.svg)
 - [SciTeX Cloud](https://github.com/scitex-ai/scitex-hub) - Self-hostable online editor with AI assistant integration, figure/table/citation management, real-time collaboration, and an MCP server (29 tools). ![foss](fig/foss.svg)
 - [WebLaTeX](https://github.com/sanjib-sen/weblatex) - Web-based VS Code with Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support based on GitHub Codespace and Dev container.
 - [Papeeria](https://papeeria.com) - Online editor with built-in Git support.
 - [JaxEdit](https://zohooo.GitHub.io/jaxedit/) - Online LaTeX editor with Live Preview and nice presentation mode.
 - [Vexlio](https://vexlio.com/) - Online diagram editor with built-in LaTeX equation support including live preview and easy exports.
 - [TeXbrain](https://tex.swimmingbrain.dev) - Free, open-source browser-based LaTeX editor with in-browser compilation, live PDF preview and Git integration. No account or install required. ![foss](fig/foss.svg)
-- [LetX](https://letx.app) - Online editor with real-time multi-author collaboration (CRDT), bidirectional SyncTeX, and 1000+ journal/thesis templates.
+- [LetX](https://letx.app) - Online editor with real-time multi-author collaboration (CRDT), bidirectional SyncTeX, 1000+ journal/thesis templates, and a hosted MCP server so Claude and ChatGPT can create, edit and compile projects.
 - [Sarmate.net](https://www.sarmate.net) - Online editor with 5 built-in WYSIWYG helpers (TikZ figures, probability trees, sign tables, color boxes, LaTeX tables) that auto-generate clean LaTeX code. Cloud compilation, real-time collaboration, free tier.
+- [TeXlyre](https://texlyre.github.io/texlyre/) - Local-first, open-source browser editor for LaTeX with in-browser WebAssembly compilation, offline editing, and peer-to-peer collaboration via WebRTC. ![foss](fig/foss.svg)
+- [CoCalc](https://cocalc.ai/features/latex-editor) - Collaborative online LaTeX editor with real-time editing, TimeTravel history, and first-class SageTeX, PythonTeX, and Knitr support. Freemium.
+- [VerbTeX](https://verbosus.com/) - LaTeX editor for the browser plus native Android, iOS, and Windows apps, with optional offline compilation on device. Freemium.
+- [Murfy](https://www.murfy.ai/en) - Online LaTeX editor with real-time collaboration and built-in AI assistance for writing and error fixing. Freemium.
+- [Aldine](https://aldine.dev) - Self-hosted online editor with real-time collaboration in which every project is a Git repository, with branches in the editor and push/pull to GitHub, GitLab and Gitea. ![foss](fig/foss.svg)
 
 ## Language Servers
 
@@ -167,6 +180,9 @@ Language servers bring IDE features (completion, diagnostics, navigation, and mo
 - [OneCite](https://github.com/HzaCode/OneCite) - Universal citation management and academic reference toolkit that converts messy references into perfectly formatted citations. Supports DOI, arXiv ID, titles, and more, with output in BibTeX, APA, and MLA formats. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
 - [CrossRef Local](https://github.com/scitex-ai/crossref-local) - Local CrossRef database (167M papers) with full-text search, impact factor data, Python API for bibliography enrichment, and an MCP server (15 tools). ![foss](fig/foss.svg)
 - [OpenAlex Local](https://github.com/scitex-ai/openalex-local) - Local OpenAlex database (284M scholarly works) with abstracts and semantic search for literature discovery, and an MCP server. ![foss](fig/foss.svg)
+- [Biber](https://ctan.org/pkg/biber) - Modern bibliography processor for biblatex, with Unicode support and more flexible sorting than BibTeX. ![foss](fig/foss.svg)
+- [BiblioAudit](https://github.com/Official-Satyam-Tiwari/Reference-Architect) - Command-line tool to check, verify, and repair citations in BibTeX files across 12+ academic databases. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
+- [latexci BibTeX tools](https://latexci.com/tools/bibtex) - Browser-based .bib cleaner (removes duplicates, normalizes author names, escapes special characters) plus DOI, arXiv, PubMed and ISBN to BibTeX lookups, with no install and no account. ![foss](fig/foss.svg)
 
 ## Build Tools
 
@@ -174,6 +190,8 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 
 - [Arara](https://www.ctan.org/pkg/arara) ([GitHub repo](https://github.com/islandoftex/arara)) - Simple tool that allows you to specify which tools to call inside your document and it can be extended quite easily. ![foss](fig/foss.svg)
 - [latexmk](https://www.ctan.org/pkg/latexmk) - Build tool that is the commonly used by many LaTeX editors (LaTeXing, TeXShop, etc.) to build your LaTeX files. ![foss](fig/foss.svg)
+- [TeXLive.net](https://texlive.net/) - Public compile service (used by LearnLaTeX.org) that turns an HTTP POST of a LaTeX document into a PDF. ![foss](fig/foss.svg)
+- [LaTeX.Online](https://latexonline.cc/) - Cloud compiler that builds a PDF from a Git repository, a URL, or pasted TeX; also available as a self-hosted Docker image. ![foss](fig/foss.svg)
 
 ### GitHub Actions
 
@@ -185,6 +203,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 - [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [Pandoc](https://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, etc.) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss](fig/foss.svg)
 - [SciTeX Writer](https://github.com/scitex-ai/scitex-writer) - Manuscript compilation system with templates for manuscripts, revisions, and supplementary materials, plus figure, table, and citation handling, and an MCP server (38 tools). ![foss](fig/foss.svg)
+- [Kroki](https://kroki.io) - Unified HTTP API that renders text-based diagrams, including PGF/TikZ, to SVG, PNG, or PDF. Self-hostable. ![foss](fig/foss.svg)
 
 ### Formatters
 
@@ -203,6 +222,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [Badness](https://github.com/jolars/badness) - Error-tolerant LaTeX linter with rich diagnostics and source snippets (also a formatter and language server). ![foss](fig/foss.svg)
 - [latex2arxiv](https://github.com/YuZh98/latex2arxiv) - CLI tool that prepares a LaTeX project for arXiv submission: prunes unreachable files, strips draft markup, validates the bibliography, and catches desk-rejection errors before upload. Also available as a GitHub Action and MCP server for AI agents. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
+- [paper-preflight](https://github.com/amos689/paper-preflight) - Checks every cited reference of a LaTeX project against Crossref, dblp, arXiv, DataCite, PubMed and OpenAlex records (existence, metadata mismatches, retractions) and reports undefined, duplicate and unused citation keys. Also available as a pre-commit hook, GitHub Action and MCP server. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 
 ### Tools centered around equations
 
@@ -215,6 +235,9 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [LaTeX to Image](https://thomasahle.com/latex2png/) - Convert LaTeX to PNG, JPEG, or SVG images. Big symbols menu and easy drag-and-drop equations.
 - [pix2tex](https://lukas-blecher.github.io/LaTeX-OCR/) - LaTeX OCR: converts images of equations into LaTeX code. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [Image to LaTeX](https://www.underleaf.ai/tools/image-to-latex) - AI-powered converter that transforms images of handwritten notes, equations, or tables into clean LaTeX code.
+- [Mathpix](https://mathpix.com/) - OCR app and API that converts images and PDFs of printed or handwritten equations, tables, and text into LaTeX. Freemium; paid Pro and API.
+- [IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - PowerPoint add-in that inserts LaTeX equations typeset by your local TeX distribution and keeps the source with each shape, so you can edit and re-typeset it later. ![windows](fig/windows.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
+- [MathPoint](https://tex64.com/mathpoint) - PowerPoint and Word add-in that typesets LaTeX equations, TikZ figures and tables on a server, so no local TeX installation is needed. Freemium.
 
 ## LaTeX-compatible GUI tools
 
@@ -225,6 +248,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [Dia](https://wiki.gnome.org/Apps/Dia) - Cross-platform diagramming tool that can export to PSTricks and MetaPost code. ![foss](fig/foss.svg)
 - [TikZiT](https://tikzit.GitHub.io) - GUI tool for creating graphs and string diagrams using PGF/TikZ. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [LaTeXDraw](https://latexdraw.sourceforge.net/) - Vector-based drawing tool having LaTeX as first-class citizen. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
+- [RustFig](https://fabianhassler.github.io/rustfig/) - xfig rebuilt for Windows, macOS, Linux and the browser (no X server): LaTeX text typeset on the canvas, and every fig2dev export built in (TikZ, PSTricks, pict2e, pstex/pdftex, PDF, EPS, SVG). Reads and writes xfig's .fig files. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 
 ## Packages
 
@@ -260,6 +284,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Convert your Matplotlib plots to PGFPlots/TikZ. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [TikZBlog](https://latexdraw.com) - Step-by-Step Tutorials about How to Draw Illustrations in LaTeX.
 - [OpenTikZ](https://github.com/opentikz/opentikz) - Community library of copyable TikZ icons and editable, parametric templates for academic conceptual diagrams (system/architecture, pipelines, flowcharts); CC0 content, with a Claude Code skill to edit figures on request. ![foss](fig/foss.svg)
+- [TikZJax](https://tikzjax.com) - Renders TikZ diagrams to SVG in the browser by running TeX via WebAssembly. ![foss](fig/foss.svg)
 
 ### Source Code
 
