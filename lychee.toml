@@ -21,4 +21,5 @@ exclude = [
   '^https?://(www\.)?androma\.org',
   '^https?://([a-z0-9-]+\.)?linkedin\.com',
   '^https?://(www\.)?(twitter|x)\.com',
+  '^https?://(www\.)?thrysoee\.dk',   # returns 454 to browser user agents (bot filter)
 ]
