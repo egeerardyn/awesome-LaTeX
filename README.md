@@ -96,7 +96,7 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 - [Texifier](https://www.texifier.com/) - Commercial LaTeX editor for macOS and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices, etc.) that never get in the way of writing. ![mac](fig/apple.svg)
 - [TeX64](https://tex64.com) - Native macOS LaTeX editor with AI-powered error fixing, equation OCR, live PDF preview, and structured math editing. ![mac](fig/apple.svg)
 - [Oleafly](https://github.com/Oleafly/Oleafly) - Free, open-source desktop editor for LaTeX, Typst, and Markdown with live PDF preview, SyncTeX, bundled engines, and Git-native projects. ![foss](fig/foss.svg)
-- [Texpile](https://texpile.com) - Free and open-source desktop editor that edits LaTeX visually (like LyX) or by source with IntelliSense. Supports end-to-end encrypted real-time collaboration. ![foss](fig/foss.svg)
+- [Texpile](https://texpile.com) - Free and open-source desktop editor that edits LaTeX visually (like LyX) or by source with IntelliSense, with local compilation and built-in git. Also supports Typst and Markdown. ![foss](fig/foss.svg)
 - [LaTeX Editor](https://github.com/s-balli/latex-editor) - Single-executable desktop editor with live PDF preview, two-way SyncTeX, LaTeX-aware spell checking, and one-key project snapshots written as a standard git repository. Needs a separate TeX distribution. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
 - [ModernTex](https://purplelink.llc/moderntex/) - Native macOS LaTeX editor for academic writing, with synced source and PDF, plain-language error messages, submission-readiness checks, a visual TikZ designer and a table editor. Free 7-day trial, then a one-time $19.99. ![mac](fig/apple.svg)
 
@@ -122,7 +122,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
 
 - [IntelliJ](https://www.jetbrains.com/idea/) - Java IDE by JetBrains that can be extended with plugins.
   - [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA) - Free LaTeX plugin for IntelliJ IDEA. ![foss](fig/foss.svg)
-  - [LaTeX Pro](https://plugins.jetbrains.com/plugin/33154-latex-pro) - Paid LaTeX and BibTeX plugin for IntelliJ IDEA and other JetBrains IDEs, with project-wide navigation and refactoring, local builds, PDF preview with SyncTeX, and bibliography management.
+  - [LaTeX Pro](https://plugins.jetbrains.com/plugin/33154-latex-pro) - LaTeX and BibTeX plugin for IntelliJ IDEA and other JetBrains IDEs, with project-wide navigation and refactoring, local builds, PDF preview with SyncTeX, and bibliography management. Paid ($30/yr, 7-day trial).
 
 - [VS Code](https://code.visualstudio.com/) - Free, extensible code editor by Microsoft. [![VS Code][awesome]](https://github.com/viatsko/awesome-vscode) ![foss](fig/foss.svg)
   - [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) - LaTeX extension for Visual Studio Code. ![foss](fig/foss.svg)
@@ -147,9 +147,9 @@ Online editors that allow you to edit documents collaboratively.
 - [JaxEdit](https://zohooo.GitHub.io/jaxedit/) - Online LaTeX editor with Live Preview and nice presentation mode.
 - [Vexlio](https://vexlio.com/) - Online diagram editor with built-in LaTeX equation support including live preview and easy exports.
 - [TeXbrain](https://tex.swimmingbrain.dev) - Free, open-source browser-based LaTeX editor with in-browser compilation, live PDF preview and Git integration. No account or install required. ![foss](fig/foss.svg)
-- [LetX](https://letx.app) - Online editor with real-time multi-author collaboration (CRDT), bidirectional SyncTeX, 1000+ journal/thesis templates, and a hosted MCP server (13 tools) so Claude and ChatGPT can create, edit and compile projects.
+- [LetX](https://letx.app) - Online editor with real-time multi-author collaboration (CRDT), bidirectional SyncTeX, 1000+ journal/thesis templates, and a hosted MCP server so Claude and ChatGPT can create, edit and compile projects.
 - [Sarmate.net](https://www.sarmate.net) - Online editor with 5 built-in WYSIWYG helpers (TikZ figures, probability trees, sign tables, color boxes, LaTeX tables) that auto-generate clean LaTeX code. Cloud compilation, real-time collaboration, free tier.
-- [Aldine](https://aldine.dev) - Self-hosted online editor with real-time collaboration in which every project is a git repository, with branches in the editor and push/pull to GitHub, GitLab and Gitea. ![foss]
+- [Aldine](https://aldine.dev) - Self-hosted online editor with real-time collaboration in which every project is a git repository, with branches in the editor and push/pull to GitHub, GitLab and Gitea. ![foss](fig/foss.svg)
 
 ## Language Servers
 
@@ -224,8 +224,8 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [LaTeX to Image](https://thomasahle.com/latex2png/) - Convert LaTeX to PNG, JPEG, or SVG images. Big symbols menu and easy drag-and-drop equations.
 - [pix2tex](https://lukas-blecher.github.io/LaTeX-OCR/) - LaTeX OCR: converts images of equations into LaTeX code. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [Image to LaTeX](https://www.underleaf.ai/tools/image-to-latex) - AI-powered converter that transforms images of handwritten notes, equations, or tables into clean LaTeX code.
-- [IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - PowerPoint add-in that inserts LaTeX equations typeset by your local TeX distribution and keeps the source with each shape, so you can edit and re-typeset it later. ![windows] ![mac] ![foss]
-- [MathPoint](https://tex64.com/mathpoint) - PowerPoint and Word add-in that inserts LaTeX equations, TikZ/pgfplots figures and tables typeset with LuaLaTeX on a server, so no local TeX installation is needed (also in PowerPoint for the web). Type LaTeX in its task pane or drive it from Claude or ChatGPT over MCP; the source stays with each shape for re-typesetting.
+- [IguanaTex](https://github.com/Jonathan-LeRoux/IguanaTex) - PowerPoint add-in that inserts LaTeX equations typeset by your local TeX distribution and keeps the source with each shape, so you can edit and re-typeset it later. ![windows](fig/windows.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
+- [MathPoint](https://tex64.com/mathpoint) - PowerPoint and Word add-in that typesets LaTeX equations, TikZ figures and tables on a server, so no local TeX installation is needed. Freemium.
 
 ## LaTeX-compatible GUI tools
 
