@@ -58,7 +58,7 @@ When one aims for a ready-to-run LaTeX environment without installing, Docker im
 ## Engines
 
 - [pdfTeX](https://www.tug.org/applications/pdftex/) - TeX compiler that produces PDF files immediately instead of DVI files (nowadays, this is the standard compiler for many users). ![foss](fig/foss.svg)
-- [XeTeX](http://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the fonts of your operating system instead of only TeX fonts). ![foss](fig/foss.svg)
+- [XeTeX](https://xetex.sourceforge.net) - TeX compiler that provides better unicode and font support than TeX/pdfTeX (i.e. you can use the fonts of your operating system instead of only TeX fonts). ![foss](fig/foss.svg)
 - [LuaTeX](https://www.luatex.org) - (La)TeX compiler that supports Lua code for scripting and has improved unicode and font support than standard TeX/pdfTeX. ![foss](fig/foss.svg)
 - [tectonic](https://tectonic-typesetting.GitHub.io/en-US/) - Modern, self contained (La)TeX compiler powered by XeTeX and TeXLive. ![foss](fig/foss.svg)
 
@@ -92,7 +92,7 @@ Some of the most awesome editor for LaTeX do just that: edit LaTeX.
 - [LyX](https://www.lyx.org) - Cross-platform WYSIWYM editor that uses LaTeX behind the scenes to render documents. ![foss](fig/foss.svg)
 - [TeXShop](https://pages.uoregon.edu/koch/texshop/) - No-nonsense editor for LaTeX documents which is included in MacTeX. ![mac](fig/apple.svg)
 - [TeXWorks](https://www.tug.org/texworks/) - No-nonsense editor for LaTeX code, modeled after TeXShop, but this one is cross-platform. ![foss](fig/foss.svg)
-- [BakomaTex](https://www.bakoma-tex.com) - Commercial LaTeX editor that allows to edit your document both using its source code and WYSIWYG.
+- [BakomaTex](https://bakoma-tex.com) - Commercial LaTeX editor that allows to edit your document both using its source code and WYSIWYG.
 - [Texifier](https://www.texifier.com/) - Commercial LaTeX editor for macOS and iOS, with excellent features (document overview, synchronised PDF display, autocompletion, sync across devices, etc.) that never get in the way of writing. ![mac](fig/apple.svg)
 - [TeX64](https://tex64.com) - Native macOS LaTeX editor with AI-powered error fixing, equation OCR, live PDF preview, and structured math editing. ![mac](fig/apple.svg)
 - [Oleafly](https://github.com/Oleafly/Oleafly) - Free, open-source desktop editor for LaTeX, Typst, and Markdown with live PDF preview, SyncTeX, bundled engines, and Git-native projects. ![foss](fig/foss.svg)
@@ -113,7 +113,7 @@ These editors are no one-trick ponies: sure, they edit LaTeX, but they can do a 
   - [RefTeX](https://www.gnu.org/software/auctex/reftex) - Emacs plugin for LaTeX that adds support for labels, references, and citations. ![foss](fig/foss.svg)
 
 - [Vim](https://www.vim.org) - Highly configurable modal text editor. [![Vim][awesome]](https://github.com/mhinz/vim-galore) ![foss](fig/foss.svg)
-  - [Vim-LaTeX](http://vim-latex.sourceforge.net) - Comprehensive set of tools to view, edit, and compile LaTeX documents within Vim. ![foss](fig/foss.svg)
+  - [Vim-LaTeX](https://vim-latex.sourceforge.net) - Comprehensive set of tools to view, edit, and compile LaTeX documents within Vim. ![foss](fig/foss.svg)
   - [LaTeX Live Preview](https://github.com/xuhdev/vim-latex-live-preview) - Instantly previews your LaTeX document. ![foss](fig/foss.svg)
   - [vimtex](https://github.com/lervag/vimtex) - Modern Vim plugin for editing LaTeX files. Has a variety of features including live preview and forward search. ![foss](fig/foss.svg)
 
@@ -136,7 +136,7 @@ Online editors that allow you to edit documents collaboratively.
 - [Androma TeX Editor](https://androma.org) - Collaborative LaTeX editor integrated into a mathematics wiki, with issue tracking, pull requests, and WASM-based compilation.
 - [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and Git support. Also available as [Overleaf Community Edition](https://github.com/overleaf/overleaf) (self-hosted, AGPL licensed). ![foss](fig/foss.svg)
   - [olcli](https://github.com/aloth/olcli) - Command-line interface for Overleaf to sync, manage, and compile projects from the terminal. ![foss](fig/foss.svg)
-- [SciTeX Cloud](https://github.com/ywatanabe1989/scitex-cloud) - Self-hostable online editor with AI assistant integration, figure/table/citation management, real-time collaboration, and an MCP server (29 tools). ![foss](fig/foss.svg)
+- [SciTeX Cloud](https://github.com/scitex-ai/scitex-hub) - Self-hostable online editor with AI assistant integration, figure/table/citation management, real-time collaboration, and an MCP server (29 tools). ![foss](fig/foss.svg)
 - [WebLaTeX](https://github.com/sanjib-sen/weblatex) - Web-based VS Code with Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support based on GitHub Codespace and Dev container.
 - [Papeeria](https://papeeria.com) - Online editor with built-in Git support.
 - [JaxEdit](https://zohooo.GitHub.io/jaxedit/) - Online LaTeX editor with Live Preview and nice presentation mode.
@@ -160,13 +160,13 @@ Language servers bring IDE features (completion, diagnostics, navigation, and mo
   powerful and simple cross-platform (Python) library manager. It has a very
   complete Command-Line-Interface, several GUIs and scripting capability.
   ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
-- [Bibdesk](http://bibdesk.sourceforge.net) - Great bibliography editor for ![mac](fig/apple.svg).
+- [Bibdesk](https://bibdesk.sourceforge.net) - Great bibliography editor for ![mac](fig/apple.svg).
 - [Zotero](https://www.zotero.org) - Reference manager for your browser that also exports to bibtex and integrates with many LaTeX editors. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
 - [Mendeley](https://www.mendeley.com) - Both an app and cloud client to manage your references and PDFs. Can sync out to a bibtex file for your LaTeX workflow. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg)
-- [betterbib](https://github.com/nschloe/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
+- [betterbib](https://github.com/texworld/betterbib) - Command-line utility for improving your BibTeX files. Fetches information from online sources. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
 - [OneCite](https://github.com/HzaCode/OneCite) - Universal citation management and academic reference toolkit that converts messy references into perfectly formatted citations. Supports DOI, arXiv ID, titles, and more, with output in BibTeX, APA, and MLA formats. ![mac](fig/apple.svg) ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
-- [CrossRef Local](https://github.com/ywatanabe1989/crossref-local) - Local CrossRef database (167M papers) with full-text search, impact factor data, Python API for bibliography enrichment, and an MCP server (15 tools). ![foss](fig/foss.svg)
-- [OpenAlex Local](https://github.com/ywatanabe1989/openalex-local) - Local OpenAlex database (284M scholarly works) with abstracts and semantic search for literature discovery, and an MCP server. ![foss](fig/foss.svg)
+- [CrossRef Local](https://github.com/scitex-ai/crossref-local) - Local CrossRef database (167M papers) with full-text search, impact factor data, Python API for bibliography enrichment, and an MCP server (15 tools). ![foss](fig/foss.svg)
+- [OpenAlex Local](https://github.com/scitex-ai/openalex-local) - Local OpenAlex database (284M scholarly works) with abstracts and semantic search for literature discovery, and an MCP server. ![foss](fig/foss.svg)
 
 ## Build Tools
 
@@ -184,7 +184,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 
 - [CaTeX](https://github.com/Alexis-benoist/CaTeX) - Concatenates LaTeX documents with attention for properly merging the preamble.
 - [Pandoc](https://pandoc.org) - This program converts almost any document format (LaTeX, DOC, markdown, etc.) to almost any other format. A great tool to aid workflows where multiple formats are used. ![foss](fig/foss.svg)
-- [SciTeX Writer](https://github.com/ywatanabe1989/scitex-writer) - Manuscript compilation system with templates for manuscripts, revisions, and supplementary materials, plus figure, table, and citation handling, and an MCP server (38 tools). ![foss](fig/foss.svg)
+- [SciTeX Writer](https://github.com/scitex-ai/scitex-writer) - Manuscript compilation system with templates for manuscripts, revisions, and supplementary materials, plus figure, table, and citation handling, and an MCP server (38 tools). ![foss](fig/foss.svg)
 
 ### Formatters
 
@@ -199,7 +199,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 
 <!--lint ignore double-link-->
 - [ChkTeX](https://www.nongnu.org/chktex/) - Linter / code checker for LaTeX documents. ![foss](fig/foss.svg)
-- [blacktex](https://github.com/nschloe/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
+- [blacktex](https://github.com/texworld/blacktex) - Command-line tool that replaces commonly occurring LaTeX anti-patterns and cleans up your files. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [TeXtidote](https://github.com/sylvainhalle/textidote) - A cross-platform (Java) spelling, grammar and style checker for LaTeX documents. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
 - [Badness](https://github.com/jolars/badness) - Error-tolerant LaTeX linter with rich diagnostics and source snippets (also a formatter and language server). ![foss](fig/foss.svg)
 - [latex2arxiv](https://github.com/YuZh98/latex2arxiv) - CLI tool that prepares a LaTeX project for arXiv submission: prunes unreachable files, strips draft markup, validates the bibliography, and catches desk-rejection errors before upload. Also available as a GitHub Action and MCP server for AI agents. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
@@ -210,7 +210,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 - [EqualX](https://equalx.sourceforge.io/) - Graphical LaTeX formula editor. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
 - [KLaTeXFormula](https://klatexformula.sourceforge.io) - Cross-platform alternative for LaTeXit. ![foss](fig/foss.svg)
 - [Laeqed](https://www.thrysoee.dk/laeqed/) - Crossplatform LaTeX formula to PNG convertor. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
-- [LaTeXEqEdit](http://latexeqedit.sourceforge.net/) - LaTeX formula editor for Windows. ![windows](fig/windows.svg) ![foss](fig/foss.svg)
+- [LaTeXEqEdit](https://latexeqedit.sourceforge.net/) - LaTeX formula editor for Windows. ![windows](fig/windows.svg) ![foss](fig/foss.svg)
 - [LaTeXiT](https://www.chachatelier.fr/latexit/) - Equation editor that makes it easy to drag-and-drop rendered equations (as PDF, PNG, etc.) into your non-LaTeX documents on the Mac. ![mac](fig/apple.svg)
 - [LaTeX to Image](https://thomasahle.com/latex2png/) - Convert LaTeX to PNG, JPEG, or SVG images. Big symbols menu and easy drag-and-drop equations.
 - [pix2tex](https://lukas-blecher.github.io/LaTeX-OCR/) - LaTeX OCR: converts images of equations into LaTeX code. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
@@ -218,7 +218,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 
 ## LaTeX-compatible GUI tools
 
-- [TikzEdt](https://www.tikzedt.org) (also: [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss](fig/foss.svg)
+- [TikzEdt](http://www.tikzedt.org) (also: [GitHub repo](https://github.com/hchapman/tikzedt)) - WYSIWYG and text-based editor for TikZ pictures. ![foss](fig/foss.svg)
 - [TikZ-Editor](https://github.com/fredokun/TikZ-Editor) - Live-previewing editor for TikZ figures. ![mac](fig/apple.svg) ![linux](fig/linux.svg) ![foss](fig/foss.svg)
 - [IPE](https://ipe.otfried.org) - Drawing tool that integrates well with LaTeX commands and documents. ![foss](fig/foss.svg)
 - [GeoGebra](https://www.geogebra.org/) - Cross-platform geometry tool with output to TikZ. ![foss](fig/foss.svg)
@@ -237,7 +237,7 @@ Formatters keep the layout of your LaTeX source consistent, so that you can focu
 ### Tables
 
 - [Excel2LaTeX](https://www.ctan.org/pkg/excel2latex?lang=en) - Excel (2010 and older) macros to produce LaTeX `tabular` code. ![windows](fig/windows.svg) ![mac](fig/apple.svg)
-- [csv2latex](http://freshmeat.sourceforge.net/projects/csv2latex) - Converts CSV files from your favorite programs to LaTeX `tabular`s. ![linux](fig/linux.svg) ![mac](fig/apple.svg)
+- [csv2latex](https://freshmeat.sourceforge.net/projects/csv2latex) - Converts CSV files from your favorite programs to LaTeX `tabular`s. ![linux](fig/linux.svg) ![mac](fig/apple.svg)
 - [Tables Generator](https://www.tablesgenerator.com) - This website provides a graphical interface to input your table and produces properly-formatted code for LaTeX, Markdown, HTML, etc.
 - [pgfplotstable](https://www.ctan.org/pkg/pgfplotstable?lang=en) - This package displays numerical tables rounded to desired precision in various display formats. It can even read CSV files to include directly in your LaTeX document.
 
@@ -252,8 +252,8 @@ PSTricks is a great library to draw figures for inclusion in PostScript/DVI file
 TikZ is an awesome package with many plugins that allow you to create figures from within your LaTeX documents.
 Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
-- [TeXample](https://www.texample.net) - Blog about LaTeX, with a big collection of TikZ figures.
-- [pgfplots](http://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
+- [TeXample](https://texample.net) - Blog about LaTeX, with a big collection of TikZ figures.
+- [pgfplots](https://pgfplots.sourceforge.net) - Truly awesome plotting library on top of and in the style of TikZ/pgf. This library can load in CSV data files, perform some calculations and create beautiful plots.
 - [A very minimal introduction to TikZ (PDF)](https://cremeronline.com/LaTeX/minimaltikz.pdf) - Short introductory document to the world of TikZ, written by Jacques Crémer.
 - [PetarV-/TikZ](https://github.com/PetarV-/TikZ) - Collection of publication-ready PGF/TikZ figures by Petar Veličković.
 - [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Convert your MATLAB plots to PGFPlots/TikZ. ![windows](fig/windows.svg) ![linux](fig/linux.svg) ![mac](fig/apple.svg) ![foss](fig/foss.svg)
@@ -275,7 +275,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 ## Templates
 
-- [LaTeX templates](https://www.latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
+- [LaTeX templates](https://latextemplates.com) - Collection of templates for papers, posters, resumés, theses, books, presentations, … for LaTeX.
 - [Ultimate Beamer Theme List](https://github.com/martinbjeldbak/ultimate-beamer-theme-list) - Links to various beamer themes along with PDF previews.
 - [LaTeX Beamer Theme Overview](https://github.com/UweZiegenhagen/LaTeX-Beamer-Theme-Overview/blob/main/OVERVIEW.md) - Visual overview of beamer themes included in TeXLive.
 - [TeXtured](https://github.com/jdujava/TeXtured) - A typographically elegant, clean, and structured LaTeX template (primarily intended for theses).
@@ -295,7 +295,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [MartinThoma's LaTeX example](https://github.com/MartinThoma/LaTeX-examples/) - GitHub repository containing example LaTeX documents.
 - [LaTeX community](https://latex.org/forum) - Forum about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
-- [BibTeX Style Examples](http://www.cs.stir.ac.uk/~kjt/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
+- [BibTeX Style Examples](https://kjt.stir.ac.uk/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
 - [TeX World](https://tex.world/) - Websites supported by the TeX Users Group, DANTE, and GUTenberg.
 - [TeXnique](https://texnique.xyz) - A LaTeX Typesetting Game.
 
@@ -322,7 +322,7 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [LaTeX Graphics Companion, M. Goossens (2007)](https://www.informit.com/store/latex-graphics-companion-9780321508928)
 - [TeX by Topic (2007)](https://ctan.org/pkg/texbytopic)
 - [TeX for the Impatient (2020)](https://ctan.org/pkg/impatient)
-- [Formatting Information (2020)](https://latex.silmaril.ie/formattinginformation) - This is the HTML5-based online version of the book *Formatting Information - An introduction to typesetting with LATEX*. It has been continuously updated since the early 2000s.
+- [Formatting Information (2020)](https://latex.silmaril.ie/formattinginformation/) - This is the HTML5-based online version of the book *Formatting Information - An introduction to typesetting with LATEX*. It has been continuously updated since the early 2000s.
 
 ## Blogs
 
