@@ -16,7 +16,6 @@ exclude = [
   '^https?://(www\.)?latex-project\.org',
   '^https?://mirrors\.ctan\.org',
   '^https?://(www\.)?authorea\.com',
-  '^https?://prism\.openai\.com',
   '^https?://(www\.)?latex\.org',
   '^https?://(www\.)?androma\.org',
   '^https?://([a-z0-9-]+\.)?linkedin\.com',

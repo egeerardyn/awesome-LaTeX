@@ -47,6 +47,20 @@ CI runs these on every pull request; run them locally first:
 
 The default branch is `master`.
 
+## Signing AI-generated text on GitHub
+
+When you interact with this repository on GitHub, mark everything an AI wrote by ending it with the robot emoji 🤖 as a signature. This applies whether you post it yourself or a human posts it for you. It covers:
+- issue and pull request comments
+- review comments
+- issue and pull request descriptions
+- release notes
+
+Humans then know at a glance which messages came from an AI.
+- Put 🤖 at the very end of the text, after a space.
+- Sign every message you write, including short replies and comments on closing.
+- If a human substantially rewrites the text before posting it, they may drop the signature. Text that is posted mostly as you wrote it keeps it.
+- Commits use a `Co-Authored-By:` trailer instead (see [Adding entries and opening pull requests](#adding-entries-and-opening-pull-requests) for the PR disclosure).
+
 ## Scope and safety
 
 - Make minimal, focused changes tied to the requested task.
