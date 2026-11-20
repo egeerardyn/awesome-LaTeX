@@ -288,7 +288,6 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 ## Resources
 
 - [TUG](https://www.tug.org) - The TeX User Group is a way to get in touch with other (La)TeX users.
-- [TeXDoc](https://texdoc.net) - Online interface to the `texdoc` utility to browse LaTeX packages and documentation.
 - [Dickimaw Books: LaTeX resources](https://www.dickimaw-books.com/latexresources.html) - Great overview of resources useful for LaTeX.
 - [LaTeX cookbook](https://latex-cookbook.net) - Sibling of TeXample, contains quite a bit of example code.
 - [Visual FAQ](https://ctan.org/pkg/visualfaq) - Typesetting issues and a link to appropriate TeX FAQ answers.
@@ -296,7 +295,6 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 - [LaTeX community](https://latex.org/forum) - Forum about LaTeX.
 - German: [Neue TeX FAQ](https://texfragen.de) - Modern and updated LaTeX FAQ in German.
 - [BibTeX Style Examples](https://kjt.stir.ac.uk/software/latex/showbst.html) - Example output of common BibTeX styles (BST files).
-- [TeX World](https://tex.world/) - Websites supported by the TeX Users Group, DANTE, and GUTenberg.
 - [TeXnique](https://texnique.xyz) - A LaTeX Typesetting Game.
 
 ## Showcases
@@ -328,7 +326,6 @@ Typically, it is easier to get to work with `pdflatex` than PSTricks is.
 
 - [TeXblog](https://texblog.net) - Blog about LaTeX and everything related.
 - [texblog.org](https://texblog.org) - Blog on LaTeX and related topics (tutorials, packages, code snippets, etc.).
-- [TeX Talk](https://tex-talk.net) - Blog for the TeX Stack Exchange site with news and interviews.
 - [TeX Hour](https://texhour.github.io/) - A weekly video meeting.
 
 ## Social media
