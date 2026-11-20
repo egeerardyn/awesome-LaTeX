@@ -136,6 +136,7 @@ Online editors that allow you to edit documents collaboratively.
 - [Androma TeX Editor](https://androma.org) - Collaborative LaTeX editor integrated into a mathematics wiki, with issue tracking, pull requests, and WASM-based compilation.
 - [Overleaf](https://www.overleaf.com) - Online editor, also with a WYSIWYM editor and Git support. Also available as [Overleaf Community Edition](https://github.com/overleaf/overleaf) (self-hosted, AGPL licensed). ![foss](fig/foss.svg)
   - [olcli](https://github.com/aloth/olcli) - Command-line interface for Overleaf to sync, manage, and compile projects from the terminal. ![foss](fig/foss.svg)
+  - [overleaf-comments-export](https://github.com/Mangluu/overleaf-comments-export) - Exports comment threads, replies and tracked changes to Markdown and JSON, and annotates the compiled PDF with highlights on the commented text. ![foss](fig/foss.svg)
 - [SciTeX Cloud](https://github.com/scitex-ai/scitex-hub) - Self-hostable online editor with AI assistant integration, figure/table/citation management, real-time collaboration, and an MCP server (29 tools). ![foss](fig/foss.svg)
 - [WebLaTeX](https://github.com/sanjib-sen/weblatex) - Web-based VS Code with Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support based on GitHub Codespace and Dev container.
 - [Papeeria](https://papeeria.com) - Online editor with built-in Git support.
