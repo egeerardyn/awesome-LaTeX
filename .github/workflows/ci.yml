@@ -25,7 +25,11 @@ jobs:
         with:
           node-version: lts/*
       - name: Run awesome-lint
-        run: npx --yes awesome-lint@latest
+        # Only install npm packages published at least 7 days ago, so a freshly
+        # published broken (or malicious) dependency can't break CI.
+        run: |
+          export npm_config_before="$(date -u -d '7 days ago' +%Y-%m-%d)"
+          npx --yes awesome-lint@latest
 
   new-links:
     # Only the links a pull request adds are checked here; links.yml checks everything weekly.
