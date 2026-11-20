@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+      - name: Run awesome-lint
+        run: npx --yes awesome-lint@latest
+
+  new-links:
+    # Only the links a pull request adds are checked here; links.yml checks everything weekly.
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Collect added lines
+        id: added
+        run: |
+          git diff --unified=0 --no-color "origin/${{ github.base_ref }}...HEAD" -- '*.md' \
+            | grep -E '^\+([^+]|$)' | sed 's/^+//' > added-lines.md || true
+          if [ -s added-lines.md ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            cat added-lines.md
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "No added Markdown lines to check."
+          fi
+      - name: Check links in added lines
+        if: steps.added.outputs.found == 'true'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --no-progress added-lines.md
+          fail: true

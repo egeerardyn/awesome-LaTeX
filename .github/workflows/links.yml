@@ -2,38 +2,52 @@ name: Links
 
 on:
   schedule:
-    # Run at 00:00 UTC every Sunday
-    - cron: '0 0 * * */7'
-  push:
-    branches:
-      - master
+    # Every Monday at 04:00 UTC
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
 
-env:
-  FORCE_COLOR: 1
+permissions:
+  contents: read
+  issues: write
 
 jobs:
-  build:
+  check-links:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
-      - name: Find markdown files
-        shell: bash
-        run: |
-          echo 'FILES_TO_CHECK<<EOF' >> $GITHUB_ENV
-
-          # $GITHUB_WORKSPACE is where our files live
-          # Ignore dirs and only include markdown files
-
-          files_to_check=$(find $GITHUB_WORKSPACE -type f \
-          -not -path '*/\.git/*' -not -path '*/\.github/*' \
-          -name "*.md")
-
-          echo $files_to_check >> $GITHUB_ENV
-          echo 'EOF' >> $GITHUB_ENV
-
-      - name: Validate that links are up
-        uses: simeg/urlsup-action@v1.0.0
+      - name: Restore lychee cache
+        uses: actions/cache@v6
         with:
-          args: ${{ env.FILES_TO_CHECK }} --threads 10
+          path: .lycheecache
+          key: lychee-${{ github.run_id }}
+          restore-keys: lychee-
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --cache --max-cache-age 3d --no-progress README.md CONTRIBUTING.md
+          output: lychee/report.md
+          fail: false
+
+      - name: Find open report issue
+        id: issue
+        if: steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search 'in:title "Link checker report"' \
+            --json number,title --jq '[.[] | select(.title == "Link checker report")][0].number // empty' || true)
+          echo "Existing issue: ${number:-none}"
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update report issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: Link checker report
+          content-filepath: lychee/report.md
+          labels: report, automated issue
+          issue-number: ${{ steps.issue.outputs.number }}
