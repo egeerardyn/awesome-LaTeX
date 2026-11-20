@@ -1,0 +1,25 @@
+# Configuration for lychee (https://lychee.cli.rs), used by the CI workflows.
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+
+# 403 and 429 are often returned to bots by sites that work fine in a browser.
+accept = ["100..=103", "200..=299", "403", "429"]
+
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+exclude_all_private = true
+
+# Sites that block automated checkers (most were whitelisted in the old awesome-bot setup).
+exclude = [
+  '^https?://(www\.)?latex-project\.org',
+  '^https?://mirrors\.ctan\.org',
+  '^https?://(www\.)?authorea\.com',
+  '^https?://prism\.openai\.com',
+  '^https?://(www\.)?latex\.org',
+  '^https?://(www\.)?androma\.org',
+  '^https?://([a-z0-9-]+\.)?linkedin\.com',
+  '^https?://(www\.)?(twitter|x)\.com',
+  '^https?://(www\.)?thrysoee\.dk',   # returns 454 to browser user agents (bot filter)
+]
