@@ -156,6 +156,7 @@ Online editors that allow you to edit documents collaboratively.
 - [VerbTeX](https://verbosus.com/) - LaTeX editor for the browser plus native Android, iOS, and Windows apps, with optional offline compilation on device. Freemium.
 - [Murfy](https://www.murfy.ai/en) - Online LaTeX editor with real-time collaboration and built-in AI assistance for writing and error fixing. Freemium.
 - [Aldine](https://aldine.dev) - Self-hosted online editor with real-time collaboration in which every project is a Git repository, with branches in the editor and push/pull to GitHub, GitLab and Gitea. ![foss](fig/foss.svg)
+- [JointTex](https://jointtex.com/) - Collaborative LaTeX and Typst editor with PDF comments linked to source and marked-up PDFs for comparing revisions. Freemium.
 
 ## Language Servers
 
